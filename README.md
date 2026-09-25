@@ -6,9 +6,11 @@
 
 ## 화면
 
-![수평선의 여섯 항로 화면 1](docs/screenshots/town_bella_960x540.png)
-![수평선의 여섯 항로 화면 2](docs/screenshots/world_navigation_v7.png)
-![수평선의 여섯 항로 화면 3](docs/screenshots/interior_market_960x540.png)
+![현재 버전 current-gameplay 화면](docs/screenshots/current-gameplay.png)
+![현재 버전 current-captain 화면](docs/screenshots/current-captain.png)
+![현재 버전 current-menu 화면](docs/screenshots/current-menu.png)
+
+2026-09-25 독립 복사본의 브라우저 실행 화면에서 촬영했습니다. Safari PDF 내보내기 방식이라 일부 CSS 글자와 어두운 장면은 화면 표시와 다를 수 있습니다. 이전 버전에서 보존한 화면은 원본의 다른 스크린샷 파일로 구분합니다.
 
 ## 실행
 
