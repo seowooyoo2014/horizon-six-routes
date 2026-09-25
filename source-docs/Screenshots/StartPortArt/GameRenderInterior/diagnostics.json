@@ -1,0 +1,179 @@
+{
+  "rendered": 33,
+  "out": "/Users/seol-eunjin/Documents/game/HorizonLedger_Unity/Docs/Screenshots/StartPortArt/GameRenderInterior",
+  "captureMode": "offline internal 960x540 Game.renderInterior canvas scaled to 1280x720, 1920x1080, and 2880x1620; not responsive UI captures",
+  "scriptFiles": [
+    "v21_art.js",
+    "seville_quality.js",
+    "seville_town.js",
+    "seville_trade.js",
+    "seville_opening.js",
+    "startport_interiors.js"
+  ],
+  "negativeControls": {
+    "black": {
+      "matches": 0,
+      "total": 1319,
+      "ratio": 0,
+      "nonBlackMatches": 11,
+      "nonBlackRatio": 0.008339651250947688
+    },
+    "differentImage": {
+      "matches": 35,
+      "total": 1319,
+      "ratio": 0.026535253980288095,
+      "nonBlackMatches": 1186,
+      "nonBlackRatio": 0.8991660348749052
+    }
+  },
+  "layerEvidence": {
+    "seville:lodge:2f": [
+      {
+        "source": "candidate-background",
+        "alpha": 1,
+        "width": 1672,
+        "height": 941,
+        "args": [
+          0.25504782146651905,
+          0,
+          959.489904357067,
+          540
+        ]
+      },
+      {
+        "source": "actor-layer",
+        "alpha": 1,
+        "width": 48,
+        "height": 72,
+        "args": [
+          277,
+          167
+        ]
+      },
+      {
+        "source": "actor-layer",
+        "alpha": 1,
+        "width": 48,
+        "height": 72,
+        "args": [
+          317,
+          198
+        ]
+      }
+    ],
+    "seville:guild:1f": [
+      {
+        "source": "candidate-background",
+        "alpha": 1,
+        "width": 1672,
+        "height": 941,
+        "args": [
+          0.25504782146651905,
+          0,
+          959.489904357067,
+          540
+        ]
+      },
+      {
+        "source": "actor-layer",
+        "alpha": 1,
+        "width": 48,
+        "height": 72,
+        "args": [
+          596,
+          112
+        ]
+      },
+      {
+        "source": "actor-layer",
+        "alpha": 1,
+        "width": 48,
+        "height": 72,
+        "args": [
+          456,
+          400
+        ]
+      }
+    ]
+  },
+  "diagnostics": {
+    "asset": {
+      "revision": "21-interiors-20260913-2",
+      "root": "../Assets/Resources/Sprites/Game/StartPortArt/",
+      "requested": 11,
+      "ready": 11,
+      "failed": 0,
+      "pending": 0
+    },
+    "loading": {
+      "status": "ready",
+      "startedAt": 1789916237293,
+      "finishedAt": 1789916237928,
+      "failures": []
+    },
+    "registry": {
+      "seville:lodge:2f": {
+        "buildingScenes": "previous",
+        "floorVisualSetsV21": "previous"
+      },
+      "seville:market:2f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "seville:guild:2f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "seville:guild:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "lume:market:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "london:harbor:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "venice:guild:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "bella:mansion:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "constantinople:harbor:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "london:guild:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      },
+      "bella:guild:1f": {
+        "buildingScenes": "candidate",
+        "floorVisualSetsV21": "candidate"
+      }
+    },
+    "renderer": {
+      "calls": 15,
+      "ready": 14,
+      "fallbacks": 1,
+      "failures": [
+        {
+          "key": "seville:lodge:2f",
+          "message": "simulated renderer failure"
+        }
+      ],
+      "last": {
+        "key": "seville:lodge:2f",
+        "status": "fallback",
+        "source": "../Assets/Resources/Sprites/Game/StartPortArt/reference_01.png",
+        "requestedSource": "../Assets/Resources/Sprites/Game/StartPortArt/reference_01.png",
+        "error": "simulated renderer failure"
+      }
+    }
+  }
+}

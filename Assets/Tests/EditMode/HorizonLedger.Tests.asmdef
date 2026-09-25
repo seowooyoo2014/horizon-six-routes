@@ -1,0 +1,12 @@
+{
+  "name": "HorizonLedger.Tests",
+  "references": [
+    "HorizonLedger.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

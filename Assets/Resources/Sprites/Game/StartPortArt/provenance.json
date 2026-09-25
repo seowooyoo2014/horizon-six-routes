@@ -1,0 +1,119 @@
+[
+  {
+    "number": 1,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-68558c70-d890-46fd-a491-ed09e64ef1c5.png",
+    "file": "reference_01.png",
+    "sha256": "7db826cf6cce5d537ccf95c4d0b070f04d510495fe846fbf5c5ac7bedb067889",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 2,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-b8e142f8-a2ff-4577-9d41-4e3b08e0aaab.png",
+    "file": "reference_02.png",
+    "sha256": "912af6945abd253c2f04aabdc1b267c84194b896362b0841c4291da144ae65c2",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 3,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-4d525d7f-c334-4459-9b71-5d210025e259.png",
+    "file": "reference_03.png",
+    "sha256": "bb27b1e770c9d0c855774b0ef1ba0c8ca4633cc82ca6ff2fef39f5bd17294f61",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 4,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-43f1e635-52ba-4f21-9d53-8cebb544081b.png",
+    "file": "reference_04.png",
+    "sha256": "08d1b960b140358d1ce9949fe2ffad1d98b3a55c9c418858b4ab15aaee485cfb",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 5,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-cf040f29-5c61-437e-94c8-f5e269e7b969.png",
+    "file": "reference_05.png",
+    "sha256": "d5c39a35451ed6c0c7633a6fb84f10252aa8d6546da305520373584d6d4fc497",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 6,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-9f2249d4-1b7b-446e-9b82-642d3aa9e26d.png",
+    "file": "reference_06.png",
+    "sha256": "45627d4766564da3cad093f898aa098e6456e2227222fc5fa67182d29c187bd3",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 7,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-98457711-6796-441a-b8cc-381f2e86ce53.png",
+    "file": "reference_07.png",
+    "sha256": "8029272983f29fe4786ff7ce768ec1b73485fe0941993179a30328dd86573108",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 8,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-5537ce35-a878-4344-8872-df99a2907698.png",
+    "file": "reference_08.png",
+    "sha256": "bd2bf5d381edf81d709696b3e1433290ca967b1ba99892b6381e09c2ed7386bc",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 9,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-a3fa6bf0-7e11-4bf1-89d1-feaed442b09c.png",
+    "file": "reference_09.png",
+    "sha256": "6d0725282adfea8481e2499e248f07f4f912d1dcf6e034e5c872e8afede26b9c",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 10,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-f838b7bf-383a-429e-962e-1d7109a2a6a6.png",
+    "file": "reference_10.png",
+    "sha256": "e83d22cea42a88750a00fb79f1e7214faf415646b054ea324b83d5940f16d023",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 11,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-49de5051-fda1-4634-a2ea-d2594f6c61cc.png",
+    "file": "reference_11.png",
+    "sha256": "5d46c61d0874f475cd38a293fc12ab833f5d21fed110eda0cd80088761ee3971",
+    "width": 1672,
+    "height": 941,
+    "role": "runtime-interior"
+  },
+  {
+    "number": 12,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-3a25877e-9916-4bc2-843b-4e276e3dae69.png",
+    "file": "reference_12.png",
+    "sha256": "db69e1f2e33c44658bd20f10fef581f4bf54b7a1300287bebca4ec4787036381",
+    "width": 1672,
+    "height": 941,
+    "role": "town-style-reference"
+  },
+  {
+    "number": 13,
+    "source": "/Users/seol-eunjin/.codex/generated_images/01a047b1-41ed-77c1-bc98-9c686876f522/exec-aa1f3a39-108b-4f6b-8557-b0fa98af73b8.png",
+    "file": "reference_13.png",
+    "sha256": "c1d50e53131e9af10f69f80556645399f81b4bf0b5b53c2befa725fceec72e52",
+    "width": 1672,
+    "height": 941,
+    "role": "town-style-reference"
+  }
+]

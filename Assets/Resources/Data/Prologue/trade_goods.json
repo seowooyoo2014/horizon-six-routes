@@ -1,0 +1,9 @@
+{
+  "goods": [
+    { "id": "salt", "name": "소금", "weight": 1, "description": "보존식과 염장에 쓰이는 안정적인 교역품." },
+    { "id": "glass", "name": "유리 공예품", "weight": 1, "description": "남부 항구에서 값이 오르는 벨라의 특산품." },
+    { "id": "wine", "name": "포도주", "weight": 1, "description": "항구마다 품질과 선호가 크게 다른 술." },
+    { "id": "timber", "name": "목재", "weight": 1, "description": "선박 수리와 부두 건축에 필요한 자재." },
+    { "id": "spice", "name": "향신료", "weight": 1, "description": "비싸고 위험하지만 큰 이익을 내는 희귀품." }
+  ]
+}

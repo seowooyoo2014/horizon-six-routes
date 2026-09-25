@@ -1,0 +1,1745 @@
+{
+  "schema": "seria-eight-standing-alpha-review.v1",
+  "characterId": "ines",
+  "purpose": "Eight standing direction design frames only; alpha-only derivative",
+  "originalManifest": "../seria_design_manifest.json",
+  "originalAtlas": "../seria_direction_design_48x72.png",
+  "originalAtlasSha256": "d43891e02f05a12e01ba471cbf25e74e6e751d4d70e87f13d9ef230b6242b5ac",
+  "sourceSha256": "f8e79aefd431b3012afd0ec93bee763094d035657516422255c5fcf3d6222814",
+  "atlas": "seria_direction_design_48x72_alpha_v1.png",
+  "atlasSha256": "c2d9d38d7fb13d3e3307db2e748be5295eebf4521c35d2cbf75fe84cc6125e18",
+  "atlasSize": [
+    192,
+    144
+  ],
+  "frameSize": [
+    48,
+    72
+  ],
+  "pivotTopLeft": [
+    24,
+    69
+  ],
+  "directions": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "frames": [
+    {
+      "direction": "N",
+      "file": "N.png",
+      "atlasRect": [
+        0,
+        0,
+        48,
+        72
+      ],
+      "sourceCell": [
+        0,
+        0,
+        362,
+        543
+      ],
+      "sourceContent": [
+        102,
+        44,
+        209,
+        479
+      ],
+      "targetContent": [
+        11,
+        9,
+        26,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 937,
+      "originalFile": "../seria_direction_frames/N.png",
+      "originalSha256": "6974c63925e114f509cadc3665597de1aabf05be662a8300c34cc110a30bbea7",
+      "sha256": "9d12a194606a552ec39be86dadefbb780ae37fc5a98ba2ad4b0968ccb719cb26",
+      "alphaBounds": [
+        11,
+        9,
+        26,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            26,
+            9
+          ],
+          "originalRGBA": [
+            121,
+            11,
+            74,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            20,
+            10
+          ],
+          "originalRGBA": [
+            134,
+            26,
+            93,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            13
+          ],
+          "originalRGBA": [
+            122,
+            13,
+            73,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            11,
+            37
+          ],
+          "originalRGBA": [
+            43,
+            7,
+            43,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            11,
+            40
+          ],
+          "originalRGBA": [
+            77,
+            3,
+            57,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            15,
+            53
+          ],
+          "originalRGBA": [
+            70,
+            3,
+            87,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            56
+          ],
+          "originalRGBA": [
+            66,
+            0,
+            86,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            25,
+            56
+          ],
+          "originalRGBA": [
+            17,
+            0,
+            32,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            26,
+            60
+          ],
+          "originalRGBA": [
+            31,
+            2,
+            33,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            14,
+            66
+          ],
+          "originalRGBA": [
+            87,
+            12,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            14,
+            67
+          ],
+          "originalRGBA": [
+            53,
+            4,
+            59,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "file": "NE.png",
+      "atlasRect": [
+        48,
+        0,
+        48,
+        72
+      ],
+      "sourceCell": [
+        362,
+        0,
+        362,
+        543
+      ],
+      "sourceContent": [
+        458,
+        40,
+        181,
+        487
+      ],
+      "targetContent": [
+        13,
+        9,
+        22,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 873,
+      "originalFile": "../seria_direction_frames/NE.png",
+      "originalSha256": "36d32c4c9ec946fb90842a0804ee3ad435cd5472024bf24633e858ba014d1fcf",
+      "sha256": "308f2cafc1e051a59fb4e08a2453daaa17921f859e15c457ca0c8efb6af212df",
+      "alphaBounds": [
+        13,
+        9,
+        22,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            16,
+            21
+          ],
+          "originalRGBA": [
+            79,
+            2,
+            55,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            21
+          ],
+          "originalRGBA": [
+            55,
+            1,
+            33,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            34,
+            45
+          ],
+          "originalRGBA": [
+            122,
+            22,
+            90,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            32,
+            46
+          ],
+          "originalRGBA": [
+            121,
+            5,
+            100,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            46
+          ],
+          "originalRGBA": [
+            113,
+            19,
+            97,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            32,
+            48
+          ],
+          "originalRGBA": [
+            35,
+            1,
+            48,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            54
+          ],
+          "originalRGBA": [
+            50,
+            14,
+            65,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            56
+          ],
+          "originalRGBA": [
+            53,
+            7,
+            66,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            57
+          ],
+          "originalRGBA": [
+            45,
+            9,
+            73,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            58
+          ],
+          "originalRGBA": [
+            61,
+            9,
+            86,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            28,
+            68
+          ],
+          "originalRGBA": [
+            24,
+            1,
+            30,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "file": "E.png",
+      "atlasRect": [
+        96,
+        0,
+        48,
+        72
+      ],
+      "sourceCell": [
+        724,
+        0,
+        362,
+        543
+      ],
+      "sourceContent": [
+        803,
+        42,
+        141,
+        485
+      ],
+      "targetContent": [
+        16,
+        9,
+        17,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 679,
+      "originalFile": "../seria_direction_frames/E.png",
+      "originalSha256": "2491e368873c93201609b8854825ee994e23d8427c210dc63132e662da7c69ba",
+      "sha256": "c5e296120c7e1ba1f8b52115b5b97d58d849bd699c506546da0f13f1260b69d7",
+      "alphaBounds": [
+        16,
+        9,
+        17,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            31,
+            11
+          ],
+          "originalRGBA": [
+            79,
+            13,
+            51,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            32,
+            16
+          ],
+          "originalRGBA": [
+            128,
+            12,
+            76,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            24
+          ],
+          "originalRGBA": [
+            98,
+            6,
+            101,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            25
+          ],
+          "originalRGBA": [
+            109,
+            17,
+            59,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            31
+          ],
+          "originalRGBA": [
+            80,
+            9,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            32
+          ],
+          "originalRGBA": [
+            40,
+            5,
+            31,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            36
+          ],
+          "originalRGBA": [
+            42,
+            9,
+            39,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            17,
+            47
+          ],
+          "originalRGBA": [
+            39,
+            1,
+            52,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            16,
+            52
+          ],
+          "originalRGBA": [
+            48,
+            0,
+            31,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            54
+          ],
+          "originalRGBA": [
+            32,
+            0,
+            37,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            61
+          ],
+          "originalRGBA": [
+            49,
+            15,
+            45,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            62
+          ],
+          "originalRGBA": [
+            58,
+            8,
+            74,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            63
+          ],
+          "originalRGBA": [
+            64,
+            5,
+            71,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            28,
+            63
+          ],
+          "originalRGBA": [
+            92,
+            3,
+            107,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            64
+          ],
+          "originalRGBA": [
+            63,
+            0,
+            60,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "file": "SE.png",
+      "atlasRect": [
+        144,
+        0,
+        48,
+        72
+      ],
+      "sourceCell": [
+        1086,
+        0,
+        362,
+        543
+      ],
+      "sourceContent": [
+        1118,
+        40,
+        189,
+        487
+      ],
+      "targetContent": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 892,
+      "originalFile": "../seria_direction_frames/SE.png",
+      "originalSha256": "a685e1b2e042db76bc1cd055949226486cf22cccc6d25d341698213a8ad86af0",
+      "sha256": "fbc74f819b67e5777fc33538197665fc5294138015eb69322b9eb4ac5db61193",
+      "alphaBounds": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            19,
+            12
+          ],
+          "originalRGBA": [
+            149,
+            26,
+            97,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            18
+          ],
+          "originalRGBA": [
+            131,
+            26,
+            83,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            22
+          ],
+          "originalRGBA": [
+            89,
+            5,
+            53,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            23
+          ],
+          "originalRGBA": [
+            108,
+            5,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            17,
+            24
+          ],
+          "originalRGBA": [
+            98,
+            9,
+            79,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            16,
+            27
+          ],
+          "originalRGBA": [
+            59,
+            0,
+            66,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            15,
+            31
+          ],
+          "originalRGBA": [
+            105,
+            19,
+            100,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            33
+          ],
+          "originalRGBA": [
+            40,
+            2,
+            50,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            35,
+            38
+          ],
+          "originalRGBA": [
+            63,
+            10,
+            82,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            13,
+            43
+          ],
+          "originalRGBA": [
+            137,
+            29,
+            88,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            13,
+            44
+          ],
+          "originalRGBA": [
+            135,
+            26,
+            75,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            52
+          ],
+          "originalRGBA": [
+            62,
+            0,
+            85,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            23,
+            53
+          ],
+          "originalRGBA": [
+            47,
+            5,
+            66,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            17,
+            54
+          ],
+          "originalRGBA": [
+            46,
+            3,
+            30,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            22,
+            55
+          ],
+          "originalRGBA": [
+            36,
+            2,
+            44,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            55
+          ],
+          "originalRGBA": [
+            66,
+            14,
+            93,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            56
+          ],
+          "originalRGBA": [
+            81,
+            18,
+            98,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            57
+          ],
+          "originalRGBA": [
+            97,
+            18,
+            97,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            58
+          ],
+          "originalRGBA": [
+            33,
+            7,
+            43,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            17,
+            63
+          ],
+          "originalRGBA": [
+            68,
+            0,
+            75,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            31,
+            63
+          ],
+          "originalRGBA": [
+            82,
+            15,
+            101,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            66
+          ],
+          "originalRGBA": [
+            54,
+            16,
+            59,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            21,
+            68
+          ],
+          "originalRGBA": [
+            42,
+            16,
+            44,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "file": "S.png",
+      "atlasRect": [
+        0,
+        72,
+        48,
+        72
+      ],
+      "sourceCell": [
+        0,
+        543,
+        362,
+        543
+      ],
+      "sourceContent": [
+        97,
+        567,
+        207,
+        482
+      ],
+      "targetContent": [
+        11,
+        9,
+        26,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 954,
+      "originalFile": "../seria_direction_frames/S.png",
+      "originalSha256": "b803fb857ca935b1bb7ca218ca52fc5ea890945e199ff724839d95bc29767b68",
+      "sha256": "3fb2000acd4040a168f75e7a8a0bb257560559a4cb9a21389703622dff8b1237",
+      "alphaBounds": [
+        11,
+        9,
+        26,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            18,
+            13
+          ],
+          "originalRGBA": [
+            124,
+            4,
+            73,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            14
+          ],
+          "originalRGBA": [
+            132,
+            0,
+            87,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            17,
+            15
+          ],
+          "originalRGBA": [
+            147,
+            1,
+            96,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            16,
+            17
+          ],
+          "originalRGBA": [
+            107,
+            11,
+            72,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            18
+          ],
+          "originalRGBA": [
+            149,
+            11,
+            93,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            19
+          ],
+          "originalRGBA": [
+            103,
+            3,
+            83,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            20
+          ],
+          "originalRGBA": [
+            134,
+            20,
+            98,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            20
+          ],
+          "originalRGBA": [
+            102,
+            8,
+            52,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            14,
+            28
+          ],
+          "originalRGBA": [
+            84,
+            8,
+            89,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            14,
+            29
+          ],
+          "originalRGBA": [
+            112,
+            11,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            13,
+            32
+          ],
+          "originalRGBA": [
+            79,
+            0,
+            98,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            35,
+            34
+          ],
+          "originalRGBA": [
+            100,
+            15,
+            100,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            12,
+            35
+          ],
+          "originalRGBA": [
+            41,
+            0,
+            45,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            35,
+            45
+          ],
+          "originalRGBA": [
+            87,
+            4,
+            51,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            13,
+            49
+          ],
+          "originalRGBA": [
+            74,
+            1,
+            66,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            23,
+            52
+          ],
+          "originalRGBA": [
+            27,
+            0,
+            33,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            26,
+            55
+          ],
+          "originalRGBA": [
+            35,
+            5,
+            32,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "file": "SW.png",
+      "atlasRect": [
+        48,
+        72,
+        48,
+        72
+      ],
+      "sourceCell": [
+        362,
+        543,
+        362,
+        543
+      ],
+      "sourceContent": [
+        444,
+        569,
+        186,
+        485
+      ],
+      "targetContent": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 923,
+      "originalFile": "../seria_direction_frames/SW.png",
+      "originalSha256": "1144e8c7c67c025f46d60024039160db79f0d999f0ede2c919f0193930aba83c",
+      "sha256": "fb26116bb22c8a3f0a14ae0a946cd82d5441ae7f042a09582ecd109bb0a1d2d8",
+      "alphaBounds": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            28,
+            9
+          ],
+          "originalRGBA": [
+            103,
+            3,
+            81,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            16
+          ],
+          "originalRGBA": [
+            135,
+            17,
+            87,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            18
+          ],
+          "originalRGBA": [
+            89,
+            2,
+            52,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            28
+          ],
+          "originalRGBA": [
+            39,
+            0,
+            74,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            29
+          ],
+          "originalRGBA": [
+            37,
+            6,
+            46,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            34,
+            32
+          ],
+          "originalRGBA": [
+            27,
+            5,
+            36,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            13,
+            44
+          ],
+          "originalRGBA": [
+            85,
+            17,
+            60,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            35,
+            49
+          ],
+          "originalRGBA": [
+            40,
+            2,
+            50,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            23,
+            52
+          ],
+          "originalRGBA": [
+            67,
+            1,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            58
+          ],
+          "originalRGBA": [
+            53,
+            18,
+            39,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            59
+          ],
+          "originalRGBA": [
+            36,
+            3,
+            38,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            60
+          ],
+          "originalRGBA": [
+            46,
+            4,
+            46,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            61
+          ],
+          "originalRGBA": [
+            36,
+            2,
+            33,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            32,
+            65
+          ],
+          "originalRGBA": [
+            20,
+            1,
+            57,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "file": "W.png",
+      "atlasRect": [
+        96,
+        72,
+        48,
+        72
+      ],
+      "sourceCell": [
+        724,
+        543,
+        362,
+        543
+      ],
+      "sourceContent": [
+        826,
+        568,
+        136,
+        486
+      ],
+      "targetContent": [
+        16,
+        9,
+        17,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 670,
+      "originalFile": "../seria_direction_frames/W.png",
+      "originalSha256": "4153f0be2295dc7df41fe14954914d6a9299a3376a402feca612837f7aa7e8c5",
+      "sha256": "e9fd7882945780883221d4a08e407cf30a64489bc689b255dad273d7cc3ce222",
+      "alphaBounds": [
+        16,
+        9,
+        17,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            27,
+            22
+          ],
+          "originalRGBA": [
+            51,
+            7,
+            28,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            24
+          ],
+          "originalRGBA": [
+            113,
+            35,
+            91,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            32
+          ],
+          "originalRGBA": [
+            58,
+            6,
+            34,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            37
+          ],
+          "originalRGBA": [
+            70,
+            15,
+            39,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            30,
+            43
+          ],
+          "originalRGBA": [
+            39,
+            2,
+            34,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            32,
+            49
+          ],
+          "originalRGBA": [
+            92,
+            19,
+            64,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            52
+          ],
+          "originalRGBA": [
+            71,
+            5,
+            66,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            20,
+            53
+          ],
+          "originalRGBA": [
+            33,
+            3,
+            28,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            28,
+            56
+          ],
+          "originalRGBA": [
+            70,
+            11,
+            81,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            28,
+            57
+          ],
+          "originalRGBA": [
+            66,
+            8,
+            72,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            28,
+            58
+          ],
+          "originalRGBA": [
+            76,
+            11,
+            92,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            27,
+            64
+          ],
+          "originalRGBA": [
+            95,
+            5,
+            110,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            24,
+            68
+          ],
+          "originalRGBA": [
+            82,
+            0,
+            89,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "file": "NW.png",
+      "atlasRect": [
+        144,
+        72,
+        48,
+        72
+      ],
+      "sourceCell": [
+        1086,
+        543,
+        362,
+        543
+      ],
+      "sourceContent": [
+        1138,
+        565,
+        185,
+        489
+      ],
+      "targetContent": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "pivotTopLeft": [
+        24,
+        69
+      ],
+      "opaquePixels": 915,
+      "originalFile": "../seria_direction_frames/NW.png",
+      "originalSha256": "54af5eccf13a0b5a199babaaf81aae8adf2d42a8aa9ee4d8bc1abe1b25053670",
+      "sha256": "c4c7c71bb8c82781f0bef945498a68a22ec106b750af77e7ae3ab03efd69aefc",
+      "alphaBounds": [
+        13,
+        9,
+        23,
+        60
+      ],
+      "removedPixels": [
+        {
+          "pixel": [
+            29,
+            10
+          ],
+          "originalRGBA": [
+            123,
+            22,
+            95,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            29,
+            22
+          ],
+          "originalRGBA": [
+            39,
+            13,
+            42,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            27
+          ],
+          "originalRGBA": [
+            94,
+            12,
+            110,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            15,
+            49
+          ],
+          "originalRGBA": [
+            92,
+            26,
+            46,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            18,
+            52
+          ],
+          "originalRGBA": [
+            58,
+            18,
+            48,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            25,
+            54
+          ],
+          "originalRGBA": [
+            97,
+            8,
+            85,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            33,
+            56
+          ],
+          "originalRGBA": [
+            21,
+            9,
+            28,
+            255
+          ]
+        },
+        {
+          "pixel": [
+            19,
+            68
+          ],
+          "originalRGBA": [
+            33,
+            9,
+            37,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "processing": "One pass on original exterior-connected silhouette: B>=28, B-G>=18, B>=0.5R, R>1.6G, B>1.6G; eight-neighbor adjacency to four-connected transparent exterior. Set selected alpha 255 to 0. Preserve every RGB byte, including RGB beneath zero alpha. No resampling, repositioning, recolor, accessory or design edit.",
+  "verification": {
+    "originalFilesUnchanged": 11,
+    "rgbChannelChanges": 0,
+    "alphaPixelsRemoved": 112,
+    "alphaPixelsAdded": 0,
+    "partialAlphaPixels": 0,
+    "frameAtlasMismatch": 0
+  },
+  "artReview": "2026-09-21: alpha cleanup accepted for standing-design review after black/white inspection; no runtime or animation approval; see ../BOUNDED_ART_REVIEW_20260920.md",
+  "standingViews": 8,
+  "animationFramesCompleted": 0,
+  "animationReady": false,
+  "runtimeInstalled": false
+}

@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "id": "intro_ledger",
+      "speaker": "리안 팔코",
+      "title": "아버지의 장부",
+      "body": "왕립 조선소의 폐창고. 리안은 압류 목록에서 아버지의 항해 일지를 찾아낸다. 같은 날짜 아래 두 번의 일몰이 적혀 있고, 마지막 장은 정교하게 뜯겨 있다.\n\n'해는 하나인데 일몰은 둘. 바람이 글을 읽는 곳에서 다음 장을 찾으라.'",
+      "condition": "시작",
+      "choices": [
+        { "label": "장부를 품에 넣는다", "command": "none", "nextEventId": "intro_clerk" }
+      ]
+    },
+    {
+      "id": "intro_clerk",
+      "speaker": "왕립 서기관 바르도",
+      "title": "지워진 이름",
+      "body": "문밖에서 군화 소리가 멈춘다. 서기관 바르도가 봉인장을 내민다.\n\n'팔코 가문의 기록은 오늘부로 왕실 소유다. 장부를 넘기면 네 이름만은 남겨 주지.'\n\n리안은 창문 너머 부두에 묶인 낡은 카라벨, 새벽까마귀를 바라본다.",
+      "condition": "시작",
+      "choices": [
+        { "label": "장부와 함께 부두로 달린다", "command": "begin_port", "nextEventId": "" }
+      ]
+    },
+    {
+      "id": "drifting_merchant",
+      "speaker": "감시 선원",
+      "title": "돛대 없는 상선",
+      "body": "항로 한가운데 돛대가 부러진 상선이 파도에 떠밀린다. 구조 신호는 약하고, 북동쪽 수평선에는 왕립선의 돛이 보인다. 멈추면 추적 거리가 좁혀진다.",
+      "condition": "항로 35%",
+      "choices": [
+        { "label": "식량을 나누고 선원을 구조한다", "command": "rescue_merchant", "nextEventId": "merchant_rescued" },
+        { "label": "위치를 해도에 표시하고 항해를 계속한다", "command": "pass_merchant", "nextEventId": "merchant_passed" }
+      ]
+    },
+    {
+      "id": "merchant_rescued",
+      "speaker": "상인 나디아",
+      "title": "빛을 파는 사람",
+      "body": "구조된 상인은 벨라의 유리가 제노아에서 귀하게 팔린다는 사실과 남항 서점의 비밀 암호를 알려 준다. 선원들은 하루치 식량을 잃었지만 리안을 선장으로 보기 시작한다.",
+      "condition": "구조 선택",
+      "choices": [
+        { "label": "다시 돛을 올린다", "command": "resume_sailing", "nextEventId": "" }
+      ]
+    },
+    {
+      "id": "merchant_passed",
+      "speaker": "리안 팔코",
+      "title": "해도 위의 점",
+      "body": "리안은 상선의 위치를 기록하고 속도를 유지한다. 합리적인 선택이었지만 갑판 위의 침묵이 길어진다. 바람은 남동쪽으로 돌아선다.",
+      "condition": "항해 지속",
+      "choices": [
+        { "label": "침묵 속에서 항해한다", "command": "resume_sailing", "nextEventId": "" }
+      ]
+    },
+    {
+      "id": "arrival_genoa",
+      "speaker": "항만 안내인",
+      "title": "제노아 남항",
+      "body": "소금 냄새와 종소리가 배를 맞는다. 왕립 추적선보다 반나절 앞섰다. 유리 공예품을 팔고 이곳의 값싼 소금을 사면 다음 항해 자금을 마련할 수 있다.",
+      "condition": "제노아 도착",
+      "choices": [
+        { "label": "세관을 통과한다", "command": "arrive_genoa", "nextEventId": "" }
+      ]
+    },
+    {
+      "id": "bookstore_clue",
+      "speaker": "서점 주인 아셀",
+      "title": "두 번째 일몰",
+      "body": "아셀은 유리판에 장부의 문장을 비춘다. 푸른 잉크가 열을 받아 떠오른다. 그것은 좌표가 아니라 계절풍이 바뀌는 순서다.\n\n'네 아버지는 항로를 숨긴 게 아니다. 누구도 독점하지 못하게 쪼개 놓았지.'",
+      "condition": "유리 판매 및 소금 구입",
+      "choices": [
+        { "label": "푸른 좌표를 해도에 옮긴다", "command": "find_clue", "nextEventId": "genoa_escape" }
+      ]
+    },
+    {
+      "id": "genoa_escape",
+      "speaker": "감시 선원",
+      "title": "검은 돛의 추적선",
+      "body": "서점 밖에서 왕립 수색대의 종이 울린다. 새벽까마귀는 수리가 끝났지만 항만 쇠사슬이 곧 닫힌다. 역풍을 가르며 외항의 암초선을 먼저 통과해야 한다.",
+      "condition": "단서 획득",
+      "choices": [
+        { "label": "남항을 빠져나간다", "command": "begin_escape", "nextEventId": "" }
+      ]
+    },
+    {
+      "id": "prologue_complete",
+      "speaker": "리안 팔코",
+      "title": "첫 번째 항로",
+      "body": "추적선의 등불이 암초 너머로 사라진다. 리안은 푸른 좌표와 상인의 증언을 나란히 적는다. 지워진 성씨를 되찾는 길은 왕에게 청원하는 길이 아니라, 장부가 감춘 바다를 직접 여는 길이었다.\n\n다음 목표: 서아프리카의 붉은 절벽에서 두 번째 일몰을 관측하라.",
+      "condition": "추적선 탈출",
+      "choices": [
+        { "label": "자유 항해를 준비한다", "command": "finish_prologue", "nextEventId": "" }
+      ]
+    }
+  ]
+}

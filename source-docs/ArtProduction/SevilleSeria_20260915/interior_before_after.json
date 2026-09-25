@@ -1,0 +1,60 @@
+[
+  {
+    "name": "seville_guild_1f_1920x1080.png",
+    "beforePath": "/tmp/horizon-v21-before-20260915/seville_guild_1f_1920x1080.png",
+    "afterPath": "/Users/seol-eunjin/Documents/game/HorizonLedger_Unity/Docs/Screenshots/StartPortArt/GameRenderInterior/seville_guild_1f_1920x1080.png",
+    "beforeSha256": "d7f456c5b7340c87dd63824d8aaa61bf2390a0940e771dd8c55256bb7805b15b",
+    "afterSha256": "d7f456c5b7340c87dd63824d8aaa61bf2390a0940e771dd8c55256bb7805b15b",
+    "changedPixels": 0,
+    "regions": [
+      {
+        "region": [
+          1195,
+          220,
+          85,
+          150
+        ],
+        "changedPixels": 0
+      },
+      {
+        "region": [
+          918,
+          805,
+          90,
+          143
+        ],
+        "changedPixels": 0
+      }
+    ],
+    "captureType": "offline actual rendering path, not browser"
+  },
+  {
+    "name": "seville_lodge_2f_1280x720.png",
+    "beforePath": "/tmp/horizon-v21-before-20260915/seville_lodge_2f_1280x720.png",
+    "afterPath": "/Users/seol-eunjin/Documents/game/HorizonLedger_Unity/Docs/Screenshots/StartPortArt/GameRenderInterior/seville_lodge_2f_1280x720.png",
+    "beforeSha256": "33903a2dca37d9fa2f93829dbbcf877bf4724b97fe025abcc377c0dc40c4ae1d",
+    "afterSha256": "33903a2dca37d9fa2f93829dbbcf877bf4724b97fe025abcc377c0dc40c4ae1d",
+    "changedPixels": 0,
+    "regions": [
+      {
+        "region": [
+          375,
+          230,
+          62,
+          88
+        ],
+        "changedPixels": 0
+      },
+      {
+        "region": [
+          430,
+          283,
+          52,
+          79
+        ],
+        "changedPixels": 0
+      }
+    ],
+    "captureType": "offline actual rendering path, not browser"
+  }
+]

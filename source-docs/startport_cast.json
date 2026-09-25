@@ -1,0 +1,2339 @@
+{
+  "schema": "startport-cast-audit.v1",
+  "runtime": {
+    "version": 21,
+    "source": "Web/tests/boot_v21.js",
+    "activePatches": [
+      "Web/seville_quality.js",
+      "Web/seville_opening.js"
+    ]
+  },
+  "scope": {
+    "startPorts": [
+      "constantinople",
+      "seville",
+      "bella",
+      "venice",
+      "london",
+      "lume"
+    ],
+    "captainCount": 6,
+    "deduplication": "same canonical appearance/caller identity is one cast entry; room appearances are retained in sceneOccurrences",
+    "dedicatedArtStatusPolicy": "pending for every identity"
+  },
+  "ports": [
+    {
+      "portId": "constantinople",
+      "displayName": "콘스탄티노폴리스",
+      "captainId": "kemal",
+      "captainDisplayName": "카이르 사판",
+      "opening": {
+        "facility": "harbor",
+        "callerRuntimeId": "caller-kemal",
+        "callerDisplayName": "하산",
+        "callerAppearanceId": "caller_kemal",
+        "callerText": "카이르, 일어나게. 알렉산드리아에서 라에나를 보았다는 선원이 왔네.",
+        "task": "누락된 선원 명부를 대조하고 목격자의 매듭 표식을 확인하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    },
+    {
+      "portId": "seville",
+      "displayName": "세비야",
+      "captainId": "ines",
+      "captainDisplayName": "세리아 알렌",
+      "opening": {
+        "facility": "guild",
+        "callerRuntimeId": "caller-ines",
+        "callerDisplayName": "마엘",
+        "callerAppearanceId": "caller_ines",
+        "callerText": "세리아, 일어나요. 오늘 보낼 조수표를 함께 확인해요.",
+        "task": "세비야 지도 공방(길드) 1층의 조수표 작업대에서 관측 쪽지와 사본을 대조하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    },
+    {
+      "portId": "bella",
+      "displayName": "리스본",
+      "captainId": "duarte",
+      "captainDisplayName": "로안 벨라르",
+      "opening": {
+        "facility": "mansion",
+        "callerRuntimeId": "caller-duarte",
+        "callerDisplayName": "집사 로엔",
+        "callerAppearanceId": "caller_duarte",
+        "callerText": "도련님, 일어나십시오. 동방 원정에서 살아 돌아온 사람이 문 앞에 있습니다.",
+        "task": "밀린 임금을 정리하고 생존자가 가져온 편지와 인장을 확인하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    },
+    {
+      "portId": "venice",
+      "displayName": "베네치아",
+      "captainId": "matteo",
+      "captainDisplayName": "테오란 코르비",
+      "opening": {
+        "facility": "market",
+        "callerRuntimeId": "caller-matteo",
+        "callerDisplayName": "조수 니아",
+        "callerAppearanceId": "caller_matteo",
+        "callerText": "테오란, 일어나세요. 채권자가 왔고 잠수부가 이상한 인양 상자를 가져왔어요.",
+        "task": "의뢰품을 감정하고 상자의 계약 표식과 잉크 연대를 조사하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    },
+    {
+      "portId": "london",
+      "displayName": "런던",
+      "captainId": "anne",
+      "captainDisplayName": "에린 펜로",
+      "opening": {
+        "facility": "harbor",
+        "callerRuntimeId": "caller-anne",
+        "callerDisplayName": "옛 부관 로웨",
+        "callerAppearanceId": "caller_anne",
+        "callerText": "에린 대위님, 일어나십시오. 어젯밤 난파선에서 구조된 사람이 있습니다.",
+        "task": "손상 보고서를 작성하고 생존자의 항로 변경 증언을 확인하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    },
+    {
+      "portId": "lume",
+      "displayName": "안트베르펜",
+      "captainId": "marieke",
+      "captainDisplayName": "메이라 벨든",
+      "opening": {
+        "facility": "market",
+        "callerRuntimeId": "caller-marieke",
+        "callerDisplayName": "회계원 브람",
+        "callerAppearanceId": "caller_marieke",
+        "callerText": "메이라, 일어나요. 세인 도르프의 서명이 함부르크 보증서에서 발견됐습니다.",
+        "task": "남은 상품을 세고 이중 보증서의 발행 날짜를 대조하라."
+      },
+      "runtimeCounts": {
+        "townNpcInstances": 6,
+        "facilityNpcInstances": 11
+      }
+    }
+  ],
+  "cast": [
+    {
+      "identityId": "kemal",
+      "category": "captain",
+      "displayName": "카이르 사판",
+      "currentAppearanceId": "kemal",
+      "role": "항만 통역사 · 구조 항해",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/V20/Captains/kemal_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/kemal_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "captain-select",
+          "runtimeId": "kemal",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "kemal"
+      ]
+    },
+    {
+      "identityId": "constantinople_guide",
+      "category": "town-npc",
+      "displayName": "콘스탄티노폴리스 안내인",
+      "currentAppearanceId": "constantinople_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_guide"
+      ]
+    },
+    {
+      "identityId": "constantinople_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "constantinople_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_merchant"
+      ]
+    },
+    {
+      "identityId": "constantinople_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "constantinople_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_sailor"
+      ]
+    },
+    {
+      "identityId": "constantinople_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "constantinople_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_scribe"
+      ]
+    },
+    {
+      "identityId": "constantinople_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "constantinople_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_porter"
+      ]
+    },
+    {
+      "identityId": "constantinople_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "constantinople_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "town",
+          "runtimeId": "constantinople_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "constantinople_child"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_constantinople_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_constantinople_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_constantinople_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-kemal",
+      "category": "opening-caller",
+      "displayName": "하산",
+      "currentAppearanceId": "caller_kemal",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-kemal",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-kemal"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_guild",
+      "category": "facility-npc",
+      "displayName": "항해자 길드 책임자",
+      "currentAppearanceId": "owner_constantinople_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_constantinople_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_constantinople_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_constantinople_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_constantinople_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_constantinople_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_constantinople_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_constantinople_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "constantinople",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "ines",
+      "category": "captain",
+      "displayName": "세리아 알렌",
+      "currentAppearanceId": "ines",
+      "role": "왕립 지도 제작자 · 측량",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_generation_v1.json",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_rejected_checkerboard_v1.png",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_rejected_checkerboard_v2.png",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_source_v1.png",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_town_v1_contact.png",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_town_v1_draft.png",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_town_v1_manifest.json",
+        "Assets/Resources/Sprites/Game/SevilleQuality/seria_ines_town_v1_verification.json",
+        "Assets/Resources/Sprites/Game/V20/Captains/ines_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/ines_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "captain-select",
+          "runtimeId": "ines",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "ines"
+      ]
+    },
+    {
+      "identityId": "seville_guide",
+      "category": "town-npc",
+      "displayName": "세비야 안내인",
+      "currentAppearanceId": "seville_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_guide"
+      ]
+    },
+    {
+      "identityId": "seville_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "seville_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_merchant"
+      ]
+    },
+    {
+      "identityId": "seville_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "seville_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_sailor"
+      ]
+    },
+    {
+      "identityId": "seville_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "seville_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_scribe"
+      ]
+    },
+    {
+      "identityId": "seville_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "seville_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_porter"
+      ]
+    },
+    {
+      "identityId": "seville_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "seville_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "town",
+          "runtimeId": "seville_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "seville_child"
+      ]
+    },
+    {
+      "identityId": "owner_seville_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_seville_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_seville_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_seville_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-ines",
+      "category": "opening-caller",
+      "displayName": "마엘",
+      "currentAppearanceId": "caller_ines",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-ines",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-ines"
+      ]
+    },
+    {
+      "identityId": "owner_seville_guild",
+      "category": "facility-npc",
+      "displayName": "공방 접수원",
+      "currentAppearanceId": "owner_seville_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_seville_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_seville_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_seville_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_seville_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_seville_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_seville_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_seville_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "seville",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "duarte",
+      "category": "captain",
+      "displayName": "로안 벨라르",
+      "currentAppearanceId": "duarte",
+      "role": "몰락 귀족 · 원정가",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/V20/Captains/duarte_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/duarte_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "captain-select",
+          "runtimeId": "duarte",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "duarte"
+      ]
+    },
+    {
+      "identityId": "bella_guide",
+      "category": "town-npc",
+      "displayName": "리스본 안내인",
+      "currentAppearanceId": "bella_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_guide"
+      ]
+    },
+    {
+      "identityId": "bella_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "bella_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_merchant"
+      ]
+    },
+    {
+      "identityId": "bella_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "bella_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_sailor"
+      ]
+    },
+    {
+      "identityId": "bella_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "bella_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_scribe"
+      ]
+    },
+    {
+      "identityId": "bella_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "bella_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_porter"
+      ]
+    },
+    {
+      "identityId": "bella_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "bella_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "town",
+          "runtimeId": "bella_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "bella_child"
+      ]
+    },
+    {
+      "identityId": "owner_bella_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_bella_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_bella_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_bella_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-duarte",
+      "category": "opening-caller",
+      "displayName": "집사 로엔",
+      "currentAppearanceId": "caller_duarte",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-duarte",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-duarte"
+      ]
+    },
+    {
+      "identityId": "owner_bella_guild",
+      "category": "facility-npc",
+      "displayName": "항해자 길드 책임자",
+      "currentAppearanceId": "owner_bella_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_bella_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_bella_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_bella_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_bella_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_bella_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_bella_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_bella_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "bella",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "matteo",
+      "category": "captain",
+      "displayName": "테오란 코르비",
+      "currentAppearanceId": "matteo",
+      "role": "골동품 감정사 · 인양가",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/V20/Captains/matteo_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/matteo_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "captain-select",
+          "runtimeId": "matteo",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "matteo"
+      ]
+    },
+    {
+      "identityId": "venice_guide",
+      "category": "town-npc",
+      "displayName": "베네치아 안내인",
+      "currentAppearanceId": "venice_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_guide"
+      ]
+    },
+    {
+      "identityId": "venice_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "venice_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_merchant"
+      ]
+    },
+    {
+      "identityId": "venice_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "venice_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_sailor"
+      ]
+    },
+    {
+      "identityId": "venice_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "venice_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_scribe"
+      ]
+    },
+    {
+      "identityId": "venice_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "venice_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_porter"
+      ]
+    },
+    {
+      "identityId": "venice_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "venice_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "town",
+          "runtimeId": "venice_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "venice_child"
+      ]
+    },
+    {
+      "identityId": "owner_venice_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_venice_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_venice_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_venice_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-matteo",
+      "category": "opening-caller",
+      "displayName": "조수 니아",
+      "currentAppearanceId": "caller_matteo",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-matteo",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-matteo"
+      ]
+    },
+    {
+      "identityId": "owner_venice_guild",
+      "category": "facility-npc",
+      "displayName": "항해자 길드 책임자",
+      "currentAppearanceId": "owner_venice_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_venice_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_venice_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_venice_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_venice_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_venice_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_venice_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_venice_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "venice",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "anne",
+      "category": "captain",
+      "displayName": "에린 펜로",
+      "currentAppearanceId": "anne",
+      "role": "전직 해군 장교 · 사략 선장",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/V20/Captains/anne_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/anne_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "captain-select",
+          "runtimeId": "anne",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "anne"
+      ]
+    },
+    {
+      "identityId": "london_guide",
+      "category": "town-npc",
+      "displayName": "런던 안내인",
+      "currentAppearanceId": "london_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_guide"
+      ]
+    },
+    {
+      "identityId": "london_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "london_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_merchant"
+      ]
+    },
+    {
+      "identityId": "london_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "london_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_sailor"
+      ]
+    },
+    {
+      "identityId": "london_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "london_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_scribe"
+      ]
+    },
+    {
+      "identityId": "london_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "london_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_porter"
+      ]
+    },
+    {
+      "identityId": "london_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "london_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "town",
+          "runtimeId": "london_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "london_child"
+      ]
+    },
+    {
+      "identityId": "owner_london_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_london_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_london_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_london_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-anne",
+      "category": "opening-caller",
+      "displayName": "옛 부관 로웨",
+      "currentAppearanceId": "caller_anne",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-anne",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-anne"
+      ]
+    },
+    {
+      "identityId": "owner_london_guild",
+      "category": "facility-npc",
+      "displayName": "항해자 길드 책임자",
+      "currentAppearanceId": "owner_london_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_london_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_london_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_london_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_london_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_london_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_london_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_london_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "london",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "marieke",
+      "category": "captain",
+      "displayName": "메이라 벨든",
+      "currentAppearanceId": "marieke",
+      "role": "파산 상인 · 시장 개척자",
+      "sourceSheets": [
+        "Assets/Resources/Sprites/Game/V20/Captains/marieke_interior_v20.png",
+        "Assets/Resources/Sprites/Game/V20/Captains/marieke_town_v20.png"
+      ],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "captain-select",
+          "runtimeId": "marieke",
+          "evidence": "D.captainsV16 + V19 captain renderer"
+        }
+      ],
+      "runtimeIds": [
+        "marieke"
+      ]
+    },
+    {
+      "identityId": "lume_guide",
+      "category": "town-npc",
+      "displayName": "안트베르펜 안내인",
+      "currentAppearanceId": "lume_guide",
+      "role": "guide",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_guide",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_guide"
+      ]
+    },
+    {
+      "identityId": "lume_merchant",
+      "category": "town-npc",
+      "displayName": "상인",
+      "currentAppearanceId": "lume_merchant",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_merchant",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_merchant"
+      ]
+    },
+    {
+      "identityId": "lume_sailor",
+      "category": "town-npc",
+      "displayName": "선원",
+      "currentAppearanceId": "lume_sailor",
+      "role": "sailor",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_sailor",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_sailor"
+      ]
+    },
+    {
+      "identityId": "lume_scribe",
+      "category": "town-npc",
+      "displayName": "서기관",
+      "currentAppearanceId": "lume_scribe",
+      "role": "scribe",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_scribe",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_scribe"
+      ]
+    },
+    {
+      "identityId": "lume_porter",
+      "category": "town-npc",
+      "displayName": "짐꾼",
+      "currentAppearanceId": "lume_porter",
+      "role": "porter",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_porter",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_porter"
+      ]
+    },
+    {
+      "identityId": "lume_child",
+      "category": "town-npc",
+      "displayName": "아이",
+      "currentAppearanceId": "lume_child",
+      "role": "child",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "town",
+          "runtimeId": "lume_child",
+          "evidence": "D.townVisualSetsV21.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "lume_child"
+      ]
+    },
+    {
+      "identityId": "owner_lume_market",
+      "category": "facility-npc",
+      "displayName": "시장 책임자",
+      "currentAppearanceId": "owner_lume_market",
+      "role": "merchant",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "market/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_inn",
+      "category": "facility-npc",
+      "displayName": "여관 책임자",
+      "currentAppearanceId": "owner_lume_inn",
+      "role": "innkeeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "inn/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_lodge",
+      "category": "facility-npc",
+      "displayName": "선원 숙소 책임자",
+      "currentAppearanceId": "owner_lume_lodge",
+      "role": "lodging keeper",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "lodge/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "caller-marieke",
+      "category": "opening-caller",
+      "displayName": "회계원 브람",
+      "currentAppearanceId": "caller_marieke",
+      "role": "opening caller",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "lodge/2f",
+          "runtimeId": "caller-marieke",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "caller-marieke"
+      ]
+    },
+    {
+      "identityId": "owner_lume_guild",
+      "category": "facility-npc",
+      "displayName": "항해자 길드 책임자",
+      "currentAppearanceId": "owner_lume_guild",
+      "role": "guildmaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "guild/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_mansion",
+      "category": "facility-npc",
+      "displayName": "저택 책임자",
+      "currentAppearanceId": "owner_lume_mansion",
+      "role": "household steward",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "mansion/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_shipyard",
+      "category": "facility-npc",
+      "displayName": "조선소 책임자",
+      "currentAppearanceId": "owner_lume_shipyard",
+      "role": "shipwright",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "shipyard/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_harbor",
+      "category": "facility-npc",
+      "displayName": "항만 책임자",
+      "currentAppearanceId": "owner_lume_harbor",
+      "role": "harbormaster",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "harbor/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_bank",
+      "category": "facility-npc",
+      "displayName": "은행 책임자",
+      "currentAppearanceId": "owner_lume_bank",
+      "role": "banker",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "bank/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_estate",
+      "category": "facility-npc",
+      "displayName": "부동산 사무소 책임자",
+      "currentAppearanceId": "owner_lume_estate",
+      "role": "estate manager",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "estate/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    },
+    {
+      "identityId": "owner_lume_home",
+      "category": "facility-npc",
+      "displayName": "선장의 집 책임자",
+      "currentAppearanceId": "owner_lume_home",
+      "role": "facility owner",
+      "sourceSheets": [],
+      "dedicatedArtStatus": "pending",
+      "sceneOccurrences": [
+        {
+          "portId": "lume",
+          "scene": "home/1f",
+          "runtimeId": "owner",
+          "evidence": "D.floorVisualSetsV21 scene.npcs"
+        }
+      ],
+      "runtimeIds": [
+        "owner"
+      ]
+    }
+  ],
+  "counts": {
+    "startPorts": 6,
+    "captains": 6,
+    "uniqueNpcIdentities": 102,
+    "uniqueCastIdentities": 108,
+    "sceneOccurrences": 108,
+    "townNpcInstances": 36,
+    "facilityNpcInstances": 66,
+    "openingCallers": 6,
+    "dedicatedArtPending": 108,
+    "sourceSheetMatches": 6
+  },
+  "ambiguities": [
+    "Most V21 town and facility NPCs use procedural appearance IDs; no dedicated individual sheet is bound by the active runtime.",
+    "Opening callers have distinct runtime IDs and appearance IDs but no discoverable dedicated caller sheet; the active Seville patch keeps Mael as caller-ines.",
+    "Captain Ines has discoverable V20/Seville source assets, but the active V21 captain renderer still uses appearance ID ines; dedicated art remains pending."
+  ]
+}

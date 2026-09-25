@@ -1,0 +1,4216 @@
+{
+  "status": "structural-pass-art-draft",
+  "integrationReady": false,
+  "integrated": false,
+  "blockers": [
+    "Generated six walk columns do not consistently show alternating feet and passing poses; animation quality is not accepted.",
+    "Idle breathing is visually subtle and has not been accepted in an engine playback review."
+  ],
+  "source": {
+    "file": "seria_ines_source_v1.png",
+    "size": [
+      1145,
+      1374
+    ],
+    "sha256": "8e6502aa0dd95d477ac1ce955670074a1c163aecd6c6f570cfc4f7b5fc84b6aa",
+    "transparentPixelsBefore": 0,
+    "semiTransparentPixelsBefore": 0,
+    "removedMattePixels": 1129822
+  },
+  "processing": {
+    "mode": "magenta",
+    "scale": 0.4025974025974026,
+    "interpolation": "nearest-neighbor pixel-center sampling",
+    "uniformScale": true,
+    "alpha": "binary 0/255, no neutral-color keying",
+    "torsoAnchor": "opaque centroid between 22% and 55% body height",
+    "pivotConvention": "top-left pixel-edge coordinates; torso axis x=24, ground line y=69; last opaque boot row y=68",
+    "sourceComponentDustLimit": 12,
+    "runtimeComponentDustLimit": 3
+  },
+  "runtime": {
+    "size": [
+      480,
+      576
+    ],
+    "frameSize": [
+      48,
+      72
+    ],
+    "columns": 10,
+    "rows": 8,
+    "frameCount": 80,
+    "opaquePixels": 72270,
+    "transparentPixels": 204210,
+    "semiTransparentPixels": 0,
+    "magentaResiduePixels": 0,
+    "sourceBorderClipping": false,
+    "outputBorderClipping": false,
+    "frameContamination": false,
+    "detachedRuntimeComponents": 0,
+    "pngRoundTrip": "exact",
+    "sha256": "5d693e7c341d392608935f1f68c799536b942f3166120eacc5b96edfbb3efc8f"
+  },
+  "frames": [
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        0,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 17,
+        "right": 87,
+        "bottom": 157,
+        "width": 61,
+        "height": 141,
+        "pixels": 5425
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.52723735408561,
+      "torsoAlignmentError": -0.48883714996491534,
+      "rect": [
+        0,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 57,
+        "pixels": 906
+      },
+      "margins": [
+        11,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "4662463332b0ee36f966d9ab2d2742a1b78b5b27011cf75c284e66aa45db6e49"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        0,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 16,
+        "right": 85,
+        "bottom": 157,
+        "width": 60,
+        "height": 142,
+        "pixels": 5322
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.3946910356832,
+      "torsoAlignmentError": 0.15787641427328225,
+      "rect": [
+        48,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 862
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "3815862f2f015526a5b22224f2d9d10c6247ac9074caa2ba893a1c64189596fe"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        0,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 16,
+        "right": 86,
+        "bottom": 157,
+        "width": 60,
+        "height": 142,
+        "pixels": 5315
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.72333044232437,
+      "torsoAlignmentError": -0.11066782307025136,
+      "rect": [
+        96,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 856
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "7e67e4577da2462ae917fbf698f14761cb1a61f88e2db54d318fd803e62d8576"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        0,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 16,
+        "right": 85,
+        "bottom": 157,
+        "width": 60,
+        "height": 142,
+        "pixels": 5330
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.837244676227726,
+      "torsoAlignmentError": -0.06510212950890804,
+      "rect": [
+        144,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 866
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "81bfe0da39d21028e992230e01b4f0f35727449d038e15704d187d69c11e5d29"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        0,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 17,
+        "right": 86,
+        "bottom": 157,
+        "width": 59,
+        "height": 141,
+        "pixels": 5135
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.410427807486634,
+      "torsoAlignmentError": -0.03643614610712831,
+      "rect": [
+        192,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 845
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "f77cc7b0fc7b7c0b3c40b35c50226316eaa991145b497d3b6f8ed8ddd5721498"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        0,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 16,
+        "right": 82,
+        "bottom": 157,
+        "width": 56,
+        "height": 142,
+        "pixels": 4906
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.322053951727405,
+      "torsoAlignmentError": -0.3677278412548155,
+      "rect": [
+        240,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 57,
+        "pixels": 809
+      },
+      "margins": [
+        12,
+        12,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "053eb9edd3a39c2dc003c8068d7bdee7b4b5b7969154b6f4ecd4f7588143ffe9"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        0,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 17,
+        "right": 86,
+        "bottom": 157,
+        "width": 60,
+        "height": 141,
+        "pixels": 4933
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.14890710382514,
+      "torsoAlignmentError": -0.34043715846994616,
+      "rect": [
+        288,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 806
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "22e5611b31ba11b31a02faff03f40305ada6e9534c7782b223061b203454fbe2"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        0,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 18,
+        "right": 82,
+        "bottom": 158,
+        "width": 57,
+        "height": 141,
+        "pixels": 4863
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.51102060373742,
+      "torsoAlignmentError": -0.4955530897199871,
+      "rect": [
+        336,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 57,
+        "pixels": 806
+      },
+      "margins": [
+        12,
+        12,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "803c9627bb0724db64c958782f00de54e7e9ff13b75ef26f6d4edc9a6d1f9261"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        0,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 17,
+        "right": 86,
+        "bottom": 158,
+        "width": 60,
+        "height": 142,
+        "pixels": 4893
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.35083370887787,
+      "torsoAlignmentError": -0.25966651644885275,
+      "rect": [
+        384,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 57,
+        "pixels": 794
+      },
+      "margins": [
+        12,
+        12,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "5b3b02d96357068e331bbfa088f484c9c71e50e79959a1a7dc56ce51e6a3108a"
+    },
+    {
+      "direction": "N",
+      "row": 0,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        0,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 17,
+        "right": 81,
+        "bottom": 158,
+        "width": 58,
+        "height": 142,
+        "pixels": 5015
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 53.555350553505534,
+      "torsoAlignmentError": -0.27977478050642546,
+      "rect": [
+        432,
+        0,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 12,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 57,
+        "pixels": 795
+      },
+      "margins": [
+        12,
+        12,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "b95360034221d41bf83f72ac51ddd44af412ca1eb74242401686490aa761d1cd"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        172,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 30,
+        "top": 6,
+        "right": 82,
+        "bottom": 157,
+        "width": 53,
+        "height": 152,
+        "pixels": 5660
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.05215914604561,
+      "torsoAlignmentError": 0.3225536239048665,
+      "rect": [
+        0,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 900
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "87a417d044182c4214bc104905c9c5fbc973016c8910646f7b3e3c44816ba77c"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        172,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 81,
+        "bottom": 157,
+        "width": 53,
+        "height": 152,
+        "pixels": 5593
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.90556368960468,
+      "torsoAlignmentError": 0.264468631730157,
+      "rect": [
+        48,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 888
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "debedd9019c4ff04fee83901285d6c5b5d0fc09f70849f26f41de8bc831277e9"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        172,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 30,
+        "top": 6,
+        "right": 82,
+        "bottom": 157,
+        "width": 53,
+        "height": 152,
+        "pixels": 5593
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.30425326244563,
+      "torsoAlignmentError": 0.026213556818078132,
+      "rect": [
+        96,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 888
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "8554ba0bacc565a7a7b60b80ab7c167ac51d1fc0e614a4a379119e6db183096e"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        172,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 81,
+        "bottom": 157,
+        "width": 53,
+        "height": 152,
+        "pixels": 5627
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.585055261893324,
+      "torsoAlignmentError": 0.1374747264105629,
+      "rect": [
+        144,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 895
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "2e117a0b4d79b70c936392119d0a3869156e9e8d9eb7c93d37965f390ffbc612"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        172,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 7,
+        "right": 83,
+        "bottom": 159,
+        "width": 59,
+        "height": 153,
+        "pixels": 5619
+      },
+      "sourceDustRemoved": 5,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 53.990406068719324,
+      "torsoAlignmentError": -0.20729244662264534,
+      "rect": [
+        192,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 62,
+        "pixels": 925
+      },
+      "margins": [
+        12,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "88bc69c83d34f8759ee0d41fe763e3c13b5238dc0fc926f9c4c5d052d764592a"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        172,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 20,
+        "top": 6,
+        "right": 82,
+        "bottom": 157,
+        "width": 63,
+        "height": 152,
+        "pixels": 5671
+      },
+      "sourceDustRemoved": 4,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.260341726618705,
+      "torsoAlignmentError": 0.40489751056297507,
+      "rect": [
+        240,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 898
+      },
+      "margins": [
+        12,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "0eb006cbd7c549842e029459265e817523ee0667343916f70c0ccdf0da3a00d4"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        172,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 21,
+        "top": 6,
+        "right": 81,
+        "bottom": 159,
+        "width": 61,
+        "height": 154,
+        "pixels": 5551
+      },
+      "sourceDustRemoved": 11,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 50.89028776978417,
+      "torsoAlignmentError": 0.2501179384361336,
+      "rect": [
+        288,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 36,
+        "bottom": 68,
+        "width": 25,
+        "height": 62,
+        "pixels": 916
+      },
+      "margins": [
+        12,
+        7,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "1c90721b080e6b16200fe21fcb4a9d7700eb3dd11bef4560f9afc5a82fa8a725"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        172,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 19,
+        "top": 6,
+        "right": 83,
+        "bottom": 157,
+        "width": 65,
+        "height": 152,
+        "pixels": 5669
+      },
+      "sourceDustRemoved": 4,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.340898876404495,
+      "torsoAlignmentError": -0.06364044943820346,
+      "rect": [
+        336,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 916
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "80518525944c3480759bab583721688510744d6bfd4b155c03549a0cecd3e1d6"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        172,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 23,
+        "top": 7,
+        "right": 84,
+        "bottom": 159,
+        "width": 62,
+        "height": 153,
+        "pixels": 5378
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 53,
+      "torsoAlignmentError": 0.0967741935483879,
+      "rect": [
+        384,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 36,
+        "bottom": 68,
+        "width": 25,
+        "height": 62,
+        "pixels": 894
+      },
+      "margins": [
+        12,
+        7,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "600a6d5ae21f7116d64350851e2cdbf3802c797f53b06250cf51e460a2c6af94"
+    },
+    {
+      "direction": "NE",
+      "row": 1,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        172,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 21,
+        "top": 7,
+        "right": 84,
+        "bottom": 158,
+        "width": 64,
+        "height": 152,
+        "pixels": 5609
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.39124668435013,
+      "torsoAlignmentError": -0.24730603448276156,
+      "rect": [
+        432,
+        72,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 914
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "beadbeaec15e69b726deec49622c25565dbfb5d9efefd53d7e9d2179e7bb91ad"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        344,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 31,
+        "top": 6,
+        "right": 77,
+        "bottom": 157,
+        "width": 47,
+        "height": 152,
+        "pixels": 4767
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.10878243512974,
+      "torsoAlignmentError": 0.1503588567545755,
+      "rect": [
+        0,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 32,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 778
+      },
+      "margins": [
+        14,
+        8,
+        15,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "a912a7ed14261e35b2e65e398f8708607b36828d1f304ada49ca88c9f5f664ac"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        344,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 30,
+        "top": 6,
+        "right": 75,
+        "bottom": 157,
+        "width": 46,
+        "height": 152,
+        "pixels": 4810
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.3937875751503,
+      "torsoAlignmentError": 0.07569486799686231,
+      "rect": [
+        48,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 32,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 801
+      },
+      "margins": [
+        14,
+        8,
+        15,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c9f632e40c7f67c77279350fcaf488798375f1ff793f6c7f0c30bac73e6f0549"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        344,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 30,
+        "top": 6,
+        "right": 75,
+        "bottom": 157,
+        "width": 46,
+        "height": 152,
+        "pixels": 4767
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.65363881401617,
+      "torsoAlignmentError": 0.18302472752841936,
+      "rect": [
+        96,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 32,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 795
+      },
+      "margins": [
+        14,
+        8,
+        15,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "2f8b94e27d36fc16307ad4c4fdfcb77f2e940d7fabf7c4223f1646090245a412"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        344,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 75,
+        "bottom": 157,
+        "width": 47,
+        "height": 152,
+        "pixels": 4823
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.10648148148148,
+      "torsoAlignmentError": 0.14942868400315135,
+      "rect": [
+        144,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 32,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 794
+      },
+      "margins": [
+        14,
+        8,
+        15,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "52ff8faae46adb852a1cadb5315c3b504f9e5fc262732e0285c75f23e4249cb2"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        344,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 6,
+        "right": 85,
+        "bottom": 158,
+        "width": 60,
+        "height": 153,
+        "pixels": 5095
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.41919805589308,
+      "torsoAlignmentError": 0.1676792223572292,
+      "rect": [
+        192,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 62,
+        "pixels": 827
+      },
+      "margins": [
+        12,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "745cbdd3054dc04a2c161e1772b0c1f14aa678a970a761bb5223abe1f4fe55cd"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        344,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 13,
+        "top": 6,
+        "right": 89,
+        "bottom": 158,
+        "width": 77,
+        "height": 153,
+        "pixels": 5651
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.442914371557336,
+      "torsoAlignmentError": 0.4770174742633415,
+      "rect": [
+        240,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 9,
+        "top": 7,
+        "right": 39,
+        "bottom": 68,
+        "width": 31,
+        "height": 62,
+        "pixels": 927
+      },
+      "margins": [
+        9,
+        7,
+        8,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c013ae6eb203cc10a92f7964480a3c1653e7964e7c586e1811c037957d828ddf"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        344,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 23,
+        "top": 6,
+        "right": 73,
+        "bottom": 157,
+        "width": 51,
+        "height": 152,
+        "pixels": 5183
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.84719101123596,
+      "torsoAlignmentError": 0.05472571050892583,
+      "rect": [
+        288,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 13,
+        "top": 8,
+        "right": 33,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 856
+      },
+      "margins": [
+        13,
+        8,
+        14,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "0cbc9b2885f3cc2f532b80e2f1a11974e936718f94563adacf6f3de641f4eba0"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        344,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 13,
+        "top": 6,
+        "right": 89,
+        "bottom": 157,
+        "width": 77,
+        "height": 152,
+        "pixels": 5569
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 1,
+      "sourceTorsoCenterX": 51.36153045288912,
+      "torsoAlignmentError": 0.4442525199943219,
+      "rect": [
+        336,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 9,
+        "top": 8,
+        "right": 39,
+        "bottom": 68,
+        "width": 31,
+        "height": 61,
+        "pixels": 911
+      },
+      "margins": [
+        9,
+        8,
+        8,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "6f33626f3a4024e7f235f21d02360f37869d01c8e9099f475735091486b20e0e"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        344,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 21,
+        "top": 6,
+        "right": 85,
+        "bottom": 155,
+        "width": 65,
+        "height": 150,
+        "pixels": 5029
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.73464770523594,
+      "torsoAlignmentError": 0.2938590820943787,
+      "rect": [
+        384,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 9,
+        "right": 37,
+        "bottom": 68,
+        "width": 26,
+        "height": 60,
+        "pixels": 803
+      },
+      "margins": [
+        12,
+        9,
+        10,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "46220051e355af80808ec86ca0d6f654d8795ef5170e63a8ce8019da278f81fc"
+    },
+    {
+      "direction": "E",
+      "row": 2,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        344,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 14,
+        "top": 6,
+        "right": 85,
+        "bottom": 156,
+        "width": 72,
+        "height": 151,
+        "pixels": 5451
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.70492662473794,
+      "torsoAlignmentError": 0.38115100163056326,
+      "rect": [
+        432,
+        144,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 10,
+        "top": 8,
+        "right": 38,
+        "bottom": 68,
+        "width": 29,
+        "height": 61,
+        "pixels": 896
+      },
+      "margins": [
+        10,
+        8,
+        9,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c7be72ea486a6e85e69833e9e4a0c25dbf0340761c3eb3efae3f610449f04cd9"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        515,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 6,
+        "right": 85,
+        "bottom": 157,
+        "width": 61,
+        "height": 152,
+        "pixels": 6193
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.812449799196784,
+      "torsoAlignmentError": -0.3719468036078766,
+      "rect": [
+        0,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 1030
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "e354a97a6fb5e8fd5d6c954aa9a1f128d6d2f45f28f8c030f1a9a4ad3b4d1d78"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        515,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 6,
+        "right": 84,
+        "bottom": 157,
+        "width": 61,
+        "height": 152,
+        "pixels": 6177
+      },
+      "sourceDustRemoved": 7,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.69592163134746,
+      "torsoAlignmentError": -0.4197042494477614,
+      "rect": [
+        48,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 1020
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "d9686372280ec1ace6ccf7cffdfcc31ef6a5174481380cc778cc3646ec1967e1"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        515,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 6,
+        "right": 84,
+        "bottom": 157,
+        "width": 61,
+        "height": 152,
+        "pixels": 6104
+      },
+      "sourceDustRemoved": 13,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.91757796678817,
+      "torsoAlignmentError": -0.3288614890212429,
+      "rect": [
+        96,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 1012
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "1fa5193f0c2f4f4173973b188807a4110e9d635524701da19b3fe7fac0314b1d"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        515,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 6,
+        "right": 84,
+        "bottom": 157,
+        "width": 61,
+        "height": 152,
+        "pixels": 6194
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 3,
+      "sourceTorsoCenterX": 54.513163143199044,
+      "torsoAlignmentError": -0.49460526918072034,
+      "rect": [
+        144,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 1022
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "0abc42791339cc7a110790e75c6a6df6dbafea149b56d4c4edde7aeaddd251f3"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        515,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 20,
+        "top": 7,
+        "right": 79,
+        "bottom": 159,
+        "width": 60,
+        "height": 153,
+        "pixels": 5884
+      },
+      "sourceDustRemoved": 8,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 50.42069785884219,
+      "torsoAlignmentError": 0.1682791435368749,
+      "rect": [
+        192,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 62,
+        "pixels": 954
+      },
+      "margins": [
+        12,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "fa7df9b57cfdd5d77741a8ebc9700f43e1edce80b5ce7ba8a75d677eefdc1c82"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        515,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 16,
+        "top": 7,
+        "right": 81,
+        "bottom": 159,
+        "width": 66,
+        "height": 153,
+        "pixels": 5969
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.07485928705441,
+      "torsoAlignmentError": -0.4693757462050172,
+      "rect": [
+        240,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 10,
+        "top": 7,
+        "right": 36,
+        "bottom": 68,
+        "width": 27,
+        "height": 62,
+        "pixels": 994
+      },
+      "margins": [
+        10,
+        7,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "b259e3e8584e7d02c22c39ebe71ebd0ecf075e3088643aa87158f81a5b672c24"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        515,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 17,
+        "top": 7,
+        "right": 76,
+        "bottom": 159,
+        "width": 60,
+        "height": 153,
+        "pixels": 5759
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 47.98235765838011,
+      "torsoAlignmentError": 0.39294306335204254,
+      "rect": [
+        288,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 62,
+        "pixels": 935
+      },
+      "margins": [
+        12,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "3df4199c16bd0fb70c9b2538a1390012e583b8d0427fc2c9ed9bcfd2086b3834"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        515,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 17,
+        "top": 7,
+        "right": 81,
+        "bottom": 159,
+        "width": 65,
+        "height": 153,
+        "pixels": 5871
+      },
+      "sourceDustRemoved": 6,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.857835820895524,
+      "torsoAlignmentError": 0.14313432835820805,
+      "rect": [
+        336,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 7,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 62,
+        "pixels": 956
+      },
+      "margins": [
+        11,
+        7,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "cb89cba447b2a56a7630f68091665c261f29769f65b0fa18f48bb8182f20eeea"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        515,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 17,
+        "top": 7,
+        "right": 79,
+        "bottom": 159,
+        "width": 63,
+        "height": 153,
+        "pixels": 5927
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.365181268882175,
+      "torsoAlignmentError": -0.15667409964992984,
+      "rect": [
+        384,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 62,
+        "pixels": 950
+      },
+      "margins": [
+        11,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "8bda5225f9fd86d4568f3b30d57308ba09cb18304a37d159caf30b10a7da5caa"
+    },
+    {
+      "direction": "SE",
+      "row": 3,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        515,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 17,
+        "top": 7,
+        "right": 80,
+        "bottom": 159,
+        "width": 64,
+        "height": 153,
+        "pixels": 6125
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 49.28846873830026,
+      "torsoAlignmentError": 0.11719042493448129,
+      "rect": [
+        432,
+        216,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 7,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 62,
+        "pixels": 1021
+      },
+      "margins": [
+        11,
+        7,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "5738fbb639ef466c80632eb408b957afff6b3f14ad3b9cb71e20c36d428c07cb"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        687,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 8,
+        "right": 87,
+        "bottom": 157,
+        "width": 63,
+        "height": 150,
+        "pixels": 5956
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.138415841584155,
+      "torsoAlignmentError": -0.24666038032374615,
+      "rect": [
+        0,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 60,
+        "pixels": 947
+      },
+      "margins": [
+        11,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "0316c718d9cef2dcb89a91809f98dd14b1f049496dc83d17e9cc3834433a932c"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        687,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 8,
+        "right": 86,
+        "bottom": 157,
+        "width": 62,
+        "height": 150,
+        "pixels": 5939
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.13560666137986,
+      "torsoAlignmentError": -0.44531989460489285,
+      "rect": [
+        48,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 60,
+        "pixels": 966
+      },
+      "margins": [
+        11,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "530074238e7db3f35724dae4e18a20714a90f6610e3c0624ba1b080465f89777"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        687,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 8,
+        "right": 86,
+        "bottom": 156,
+        "width": 62,
+        "height": 149,
+        "pixels": 5903
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.29449838187702,
+      "torsoAlignmentError": -0.3812506524689425,
+      "rect": [
+        96,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 60,
+        "pixels": 966
+      },
+      "margins": [
+        11,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "072243897b74eb80d45c979c0c84d59d61444be678ca3bfee09158425e134a8d"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        687,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 25,
+        "top": 8,
+        "right": 85,
+        "bottom": 156,
+        "width": 61,
+        "height": 149,
+        "pixels": 5880
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 2,
+      "sourceTorsoCenterX": 55.60829587249693,
+      "torsoAlignmentError": -0.4556164456979772,
+      "rect": [
+        144,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 60,
+        "pixels": 971
+      },
+      "margins": [
+        11,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "5044c1061f2348a4adb20782925c9b9f287691b8851d237bdcb67d4caf139791"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        687,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 8,
+        "right": 86,
+        "bottom": 158,
+        "width": 63,
+        "height": 151,
+        "pixels": 5936
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.902128468263015,
+      "torsoAlignmentError": -0.34042521100673895,
+      "rect": [
+        192,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 952
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "06b61effe60b3ec9da1f4920290977a11b9a8e1940ede22a50081dcf19c9a79e"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        687,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 22,
+        "top": 8,
+        "right": 86,
+        "bottom": 158,
+        "width": 65,
+        "height": 151,
+        "pixels": 5743
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.638632162661736,
+      "torsoAlignmentError": 0.05545286506469438,
+      "rect": [
+        240,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 930
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "11f7d07ed9a475e4522e5bd0d58d57574c0d2a58690c037fdd82ab4a5f6b2cc9"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        687,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 20,
+        "top": 8,
+        "right": 84,
+        "bottom": 158,
+        "width": 65,
+        "height": 151,
+        "pixels": 5867
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.93447505584512,
+      "torsoAlignmentError": 0.1737900223380464,
+      "rect": [
+        288,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 946
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "72a35319d00d3a553230553a2023721827a1e247aec288c4cbc07866319b2aed"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        687,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 21,
+        "top": 8,
+        "right": 85,
+        "bottom": 158,
+        "width": 65,
+        "height": 151,
+        "pixels": 5787
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 1,
+      "sourceTorsoCenterX": 53.478951255539144,
+      "torsoAlignmentError": -0.008419497784345253,
+      "rect": [
+        336,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 935
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "95d1325b2b0338fb4dcd6e7d908ec97e58043afbcc6be6fd2f7ffd2b575a24a0"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        687,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 20,
+        "top": 8,
+        "right": 84,
+        "bottom": 157,
+        "width": 65,
+        "height": 150,
+        "pixels": 5867
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.808421851289836,
+      "torsoAlignmentError": 0.12336874051593583,
+      "rect": [
+        384,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 60,
+        "pixels": 933
+      },
+      "margins": [
+        11,
+        9,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "6a146b8e12b59c4abfe5de3d8d9d8c2cc29bc7f8b53c89415a58f4bd234ba20f"
+    },
+    {
+      "direction": "S",
+      "row": 4,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        687,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 18,
+        "top": 8,
+        "right": 83,
+        "bottom": 157,
+        "width": 66,
+        "height": 150,
+        "pixels": 5943
+      },
+      "sourceDustRemoved": 4,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.41403903903904,
+      "torsoAlignmentError": -0.33062039312039104,
+      "rect": [
+        432,
+        288,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 10,
+        "top": 9,
+        "right": 36,
+        "bottom": 68,
+        "width": 27,
+        "height": 60,
+        "pixels": 971
+      },
+      "margins": [
+        10,
+        9,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "4e38f6677f9025ca45cbc6af2edfdc7bbb291190301587a2ce80d5a3dd30e96f"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        859,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 87,
+        "bottom": 156,
+        "width": 59,
+        "height": 151,
+        "pixels": 6027
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 59.22150814053128,
+      "torsoAlignmentError": 0.29349483682628374,
+      "rect": [
+        0,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 61,
+        "pixels": 999
+      },
+      "margins": [
+        12,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "09fb6527d3af41762ec5866947f7e06c8ed8c6b9672d2c1805ac928e6ffe8727"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        859,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 6,
+        "right": 86,
+        "bottom": 156,
+        "width": 59,
+        "height": 151,
+        "pixels": 5981
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 58.05363321799308,
+      "torsoAlignmentError": 0.22520673274294722,
+      "rect": [
+        48,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 24,
+        "height": 61,
+        "pixels": 991
+      },
+      "margins": [
+        12,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "804d48f0b881cee68e008ce1aef23a182d003c25850556bc89733d6355923ee0"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        859,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 86,
+        "bottom": 157,
+        "width": 58,
+        "height": 152,
+        "pixels": 5976
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 58.162921348314605,
+      "torsoAlignmentError": -0.4353932584269664,
+      "rect": [
+        96,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 61,
+        "pixels": 950
+      },
+      "margins": [
+        12,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "83be0146849dac344e69c2361a459a58eaf198d7a0cd18b41d6c843294db6ae2"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        859,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 6,
+        "right": 85,
+        "bottom": 156,
+        "width": 58,
+        "height": 151,
+        "pixels": 5998
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.290419161676645,
+      "torsoAlignmentError": -0.38483378071443397,
+      "rect": [
+        144,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 61,
+        "pixels": 965
+      },
+      "margins": [
+        12,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "7ffa5fdf505f6fc7eabbcbef1c0e1d0404c5bedce0bbdbf030fd7680eb1b82e1"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        859,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 29,
+        "top": 6,
+        "right": 84,
+        "bottom": 155,
+        "width": 56,
+        "height": 150,
+        "pixels": 5845
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.35728108369618,
+      "torsoAlignmentError": 0.2360261593752142,
+      "rect": [
+        192,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 13,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 23,
+        "height": 60,
+        "pixels": 963
+      },
+      "margins": [
+        13,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c5b2ab4c15a7012744526839005df2b2bfbffe1f8d78186da3e9ef9ad55d989d"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        859,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 7,
+        "right": 83,
+        "bottom": 155,
+        "width": 57,
+        "height": 149,
+        "pixels": 5792
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.912690839694655,
+      "torsoAlignmentError": 0.26301560198205465,
+      "rect": [
+        240,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 13,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 23,
+        "height": 60,
+        "pixels": 946
+      },
+      "margins": [
+        13,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "bbf23da26b3aafd61903c4bcec26d47081eb72cc2bb186078edd689cbafe3370"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        859,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 7,
+        "right": 84,
+        "bottom": 155,
+        "width": 58,
+        "height": 149,
+        "pixels": 5840
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.750356294536815,
+      "torsoAlignmentError": 0.0044516340404605614,
+      "rect": [
+        288,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 13,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 23,
+        "height": 60,
+        "pixels": 933
+      },
+      "margins": [
+        13,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "6b7a1ce4575d9a7a63521f539fb1b36b81231ba2e540f498124b34854eac7ca3"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        859,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 7,
+        "right": 83,
+        "bottom": 156,
+        "width": 60,
+        "height": 150,
+        "pixels": 5795
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 56.05960729312763,
+      "torsoAlignmentError": -0.1761570827489507,
+      "rect": [
+        336,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 34,
+        "bottom": 68,
+        "width": 24,
+        "height": 60,
+        "pixels": 938
+      },
+      "margins": [
+        11,
+        9,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "1f35a8c801350c7459df6da55f0217f20de8c90cd497599d0fd394ba2c703b22"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        859,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 7,
+        "right": 83,
+        "bottom": 155,
+        "width": 58,
+        "height": 149,
+        "pixels": 5683
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 55.44117647058823,
+      "torsoAlignmentError": -0.3250507099391484,
+      "rect": [
+        384,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 9,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 60,
+        "pixels": 909
+      },
+      "margins": [
+        12,
+        9,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "7b203d7acaa3e283299745527d8cb55973306c5f67fb4a554677ca6aac9ea454"
+    },
+    {
+      "direction": "SW",
+      "row": 5,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        859,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 24,
+        "top": 7,
+        "right": 84,
+        "bottom": 155,
+        "width": 61,
+        "height": 149,
+        "pixels": 5741
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.60089020771513,
+      "torsoAlignmentError": -0.45865155421510906,
+      "rect": [
+        432,
+        360,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 60,
+        "pixels": 949
+      },
+      "margins": [
+        11,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "64410e2a9403ab9c5824fb3b73dd2192504a91228476f7ab168869f01ab6509b"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        1031,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 39,
+        "top": 5,
+        "right": 84,
+        "bottom": 156,
+        "width": 46,
+        "height": 152,
+        "pixels": 4775
+      },
+      "sourceDustRemoved": 4,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 59.376519513755596,
+      "torsoAlignmentError": 0.41638849481209306,
+      "rect": [
+        0,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 16,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 796
+      },
+      "margins": [
+        16,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "3cbae8c99c527e47cba073a08e8b22a2e42fa588cdf71cdaf6bface240c65bc0"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        1031,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 37,
+        "top": 5,
+        "right": 82,
+        "bottom": 156,
+        "width": 46,
+        "height": 152,
+        "pixels": 4742
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 58.045570427023584,
+      "torsoAlignmentError": -0.30726438883808527,
+      "rect": [
+        48,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 15,
+        "top": 8,
+        "right": 33,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 797
+      },
+      "margins": [
+        15,
+        8,
+        14,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "dd1c79d432877f233130a0c1f5b3481115c54a5da8017d24dba7dda13e7d53a1"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        1031,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 38,
+        "top": 5,
+        "right": 82,
+        "bottom": 156,
+        "width": 45,
+        "height": 152,
+        "pixels": 4668
+      },
+      "sourceDustRemoved": 5,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 58.067057291666664,
+      "torsoAlignmentError": 0.02682291666666714,
+      "rect": [
+        96,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 16,
+        "top": 8,
+        "right": 33,
+        "bottom": 68,
+        "width": 18,
+        "height": 61,
+        "pixels": 747
+      },
+      "margins": [
+        16,
+        8,
+        14,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "948412b76b10c0cf5c579ef279a26ab10ca5f02050b86287df13dd73aaa59f62"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        1031,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 36,
+        "top": 5,
+        "right": 81,
+        "bottom": 155,
+        "width": 46,
+        "height": 151,
+        "pixels": 4764
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.530690537084396,
+      "torsoAlignmentError": -0.10688869120427213,
+      "rect": [
+        144,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 15,
+        "top": 8,
+        "right": 33,
+        "bottom": 68,
+        "width": 19,
+        "height": 61,
+        "pixels": 808
+      },
+      "margins": [
+        15,
+        8,
+        14,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "e5ae60afe4e0ad4cae0cf5cb33ff15775c94d5467225a02faf14b43d5328af4b"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        1031,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 5,
+        "right": 80,
+        "bottom": 156,
+        "width": 53,
+        "height": 152,
+        "pixels": 5222
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 2,
+      "sourceTorsoCenterX": 53.13357843137255,
+      "torsoAlignmentError": -0.04141231964484149,
+      "rect": [
+        192,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 828
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "1295ddb84078d1b5fe05acac1a479e77346b3137160622c51da442d450824fbc"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        1031,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 15,
+        "top": 5,
+        "right": 85,
+        "bottom": 156,
+        "width": 71,
+        "height": 152,
+        "pixels": 5381
+      },
+      "sourceDustRemoved": 5,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.36159169550173,
+      "torsoAlignmentError": 0.260368439007749,
+      "rect": [
+        240,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 9,
+        "top": 8,
+        "right": 37,
+        "bottom": 68,
+        "width": 29,
+        "height": 61,
+        "pixels": 884
+      },
+      "margins": [
+        9,
+        8,
+        10,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "6c423af7b8e4a5383651117d00a2beac8e6bddda974ad73a50a2eccfb268f255"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        1031,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 5,
+        "right": 78,
+        "bottom": 155,
+        "width": 53,
+        "height": 151,
+        "pixels": 5208
+      },
+      "sourceDustRemoved": 2,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.201492537313435,
+      "torsoAlignmentError": -0.014502956913545972,
+      "rect": [
+        288,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 830
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "1c429ddc9f2bb2b828aeac8d9afdb28614651e96b19fb735b12440f4152e0587"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        1031,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 15,
+        "top": 6,
+        "right": 85,
+        "bottom": 156,
+        "width": 71,
+        "height": 151,
+        "pixels": 5315
+      },
+      "sourceDustRemoved": 7,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.74287343215507,
+      "torsoAlignmentError": 0.4161032328520733,
+      "rect": [
+        336,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 9,
+        "top": 8,
+        "right": 37,
+        "bottom": 68,
+        "width": 29,
+        "height": 61,
+        "pixels": 879
+      },
+      "margins": [
+        9,
+        8,
+        10,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "4164344b821ab9711a325163704b3bd14cdc321dcb93a8d3163231e539caaaac"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        1031,
+        115,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 6,
+        "right": 76,
+        "bottom": 156,
+        "width": 51,
+        "height": 151,
+        "pixels": 5000
+      },
+      "sourceDustRemoved": 4,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.292917166866744,
+      "torsoAlignmentError": 0.41473059812160074,
+      "rect": [
+        384,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 14,
+        "top": 8,
+        "right": 34,
+        "bottom": 68,
+        "width": 21,
+        "height": 61,
+        "pixels": 841
+      },
+      "margins": [
+        14,
+        8,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "8c336298c6591d948d9410cc63f38b72c6d4bcdf3878e11392a6d8ddd0680748"
+    },
+    {
+      "direction": "W",
+      "row": 6,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        1031,
+        114,
+        171
+      ],
+      "sourceAlphaBounds": {
+        "left": 17,
+        "top": 6,
+        "right": 80,
+        "bottom": 155,
+        "width": 64,
+        "height": 150,
+        "pixels": 5273
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 1,
+      "sourceTorsoCenterX": 50.39599521817095,
+      "torsoAlignmentError": -0.43287694261805143,
+      "rect": [
+        432,
+        432,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 10,
+        "top": 9,
+        "right": 35,
+        "bottom": 68,
+        "width": 26,
+        "height": 60,
+        "pixels": 861
+      },
+      "margins": [
+        10,
+        9,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "763e9dafaa19dcc4d8dd7dbf1b2e48d3cf1334ccf8c6bad14121fd65251c18c3"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 0,
+      "animation": "idle",
+      "sourceRect": [
+        0,
+        1202,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 5,
+        "right": 85,
+        "bottom": 157,
+        "width": 58,
+        "height": 153,
+        "pixels": 5921
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 2,
+      "sourceTorsoCenterX": 58.70379746835443,
+      "torsoAlignmentError": 0.17564382365778997,
+      "rect": [
+        0,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 62,
+        "pixels": 951
+      },
+      "margins": [
+        12,
+        7,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "bec3190869a08c3c801c355716c5eb3fff03f0a0126caab6d53438e8f19b871d"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 1,
+      "animation": "idle",
+      "sourceRect": [
+        115,
+        1202,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 5,
+        "right": 84,
+        "bottom": 157,
+        "width": 58,
+        "height": 153,
+        "pixels": 5877
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 1,
+      "sourceTorsoCenterX": 57.830504879083584,
+      "torsoAlignmentError": 0.22588986584349158,
+      "rect": [
+        48,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 62,
+        "pixels": 945
+      },
+      "margins": [
+        12,
+        7,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "ee9b392b066401372100f59c5c1f9d9cad204012164ca5e266f83d46d41e862c"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 2,
+      "animation": "idle",
+      "sourceRect": [
+        229,
+        1202,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 28,
+        "top": 5,
+        "right": 84,
+        "bottom": 157,
+        "width": 57,
+        "height": 153,
+        "pixels": 5819
+      },
+      "sourceDustRemoved": 3,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.880747743876235,
+      "torsoAlignmentError": 0.05714382647637706,
+      "rect": [
+        96,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 62,
+        "pixels": 963
+      },
+      "margins": [
+        12,
+        7,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "a105a595b17d4d6589945e1c7ea9101c97d5a2edefd9f4aac599d31495ba0bbd"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 3,
+      "animation": "idle",
+      "sourceRect": [
+        344,
+        1202,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 27,
+        "top": 5,
+        "right": 83,
+        "bottom": 157,
+        "width": 57,
+        "height": 153,
+        "pixels": 5887
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 57.27243726074011,
+      "torsoAlignmentError": 0.2151939824039033,
+      "rect": [
+        144,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 12,
+        "top": 7,
+        "right": 34,
+        "bottom": 68,
+        "width": 23,
+        "height": 62,
+        "pixels": 978
+      },
+      "margins": [
+        12,
+        7,
+        13,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "f649c4e76d6cd81c110468c6e059322cec37adff7bfd94b93449397d138f48b2"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 4,
+      "animation": "walk",
+      "sourceRect": [
+        458,
+        1202,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 26,
+        "top": 5,
+        "right": 83,
+        "bottom": 157,
+        "width": 58,
+        "height": 153,
+        "pixels": 5570
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 54.1308957161402,
+      "torsoAlignmentError": 0.15535519777973406,
+      "rect": [
+        192,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 13,
+        "top": 7,
+        "right": 35,
+        "bottom": 68,
+        "width": 23,
+        "height": 62,
+        "pixels": 887
+      },
+      "margins": [
+        13,
+        7,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c988df7fe2d577710dc6ec4a5703fe3ffe1c01cd0c46b3c9c433c14024e311bb"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 5,
+      "animation": "walk",
+      "sourceRect": [
+        573,
+        1202,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 19,
+        "top": 6,
+        "right": 82,
+        "bottom": 157,
+        "width": 64,
+        "height": 152,
+        "pixels": 5582
+      },
+      "sourceDustRemoved": 1,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.21145745577085,
+      "torsoAlignmentError": 0.08590459140690854,
+      "rect": [
+        240,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 904
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "cc8e32aee290393ac8b67322c2133f51dfeb6b5a81736cf6cb847bc8c1f43099"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 6,
+      "animation": "walk",
+      "sourceRect": [
+        687,
+        1202,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 19,
+        "top": 6,
+        "right": 84,
+        "bottom": 157,
+        "width": 66,
+        "height": 152,
+        "pixels": 5551
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.752248569092394,
+      "torsoAlignmentError": 0.398647141901435,
+      "rect": [
+        288,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 37,
+        "bottom": 68,
+        "width": 27,
+        "height": 61,
+        "pixels": 915
+      },
+      "margins": [
+        11,
+        8,
+        10,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "79b160ea0b891a7bc72e1cd465295fa9741a93ecdab03af692388eb0404618e8"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 7,
+      "animation": "walk",
+      "sourceRect": [
+        802,
+        1202,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 19,
+        "top": 7,
+        "right": 81,
+        "bottom": 157,
+        "width": 63,
+        "height": 151,
+        "pixels": 5696
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 1,
+      "sourceTorsoCenterX": 50.6978251777499,
+      "torsoAlignmentError": -0.4214979453373431,
+      "rect": [
+        336,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 35,
+        "bottom": 68,
+        "width": 25,
+        "height": 61,
+        "pixels": 917
+      },
+      "margins": [
+        11,
+        8,
+        12,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "4b33e9b0ea570e00fc5bb52c4ec8ca6e37a3bd7590a8c5e0b0657e9333eda5f0"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 8,
+      "animation": "walk",
+      "sourceRect": [
+        916,
+        1202,
+        115,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 20,
+        "top": 7,
+        "right": 84,
+        "bottom": 157,
+        "width": 65,
+        "height": 151,
+        "pixels": 5455
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 52.454151177199506,
+      "torsoAlignmentError": -0.01833952912019754,
+      "rect": [
+        384,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 36,
+        "bottom": 68,
+        "width": 26,
+        "height": 61,
+        "pixels": 891
+      },
+      "margins": [
+        11,
+        8,
+        11,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "c5e98328860b358fb66fd284b34119939e79539f14f8656431cfba8483bc461f"
+    },
+    {
+      "direction": "NW",
+      "row": 7,
+      "column": 9,
+      "animation": "walk",
+      "sourceRect": [
+        1031,
+        1202,
+        114,
+        172
+      ],
+      "sourceAlphaBounds": {
+        "left": 18,
+        "top": 7,
+        "right": 84,
+        "bottom": 157,
+        "width": 67,
+        "height": 151,
+        "pixels": 5613
+      },
+      "sourceDustRemoved": 0,
+      "runtimeDustRemoved": 0,
+      "sourceTorsoCenterX": 51.160453808752024,
+      "torsoAlignmentError": 0.36316795278066394,
+      "rect": [
+        432,
+        504,
+        48,
+        72
+      ],
+      "pivot": [
+        24,
+        69
+      ],
+      "alphaBounds": {
+        "left": 11,
+        "top": 8,
+        "right": 37,
+        "bottom": 68,
+        "width": 27,
+        "height": 61,
+        "pixels": 927
+      },
+      "margins": [
+        11,
+        8,
+        10,
+        3
+      ],
+      "connectedComponents": 1,
+      "rgbaSha256": "59d25bd759bb2dd05d3acae59d3b13631ea9eb9fa3edf2343b9324c1d9caa47d"
+    }
+  ]
+}

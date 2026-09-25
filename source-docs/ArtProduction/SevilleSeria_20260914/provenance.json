@@ -1,0 +1,205 @@
+{
+  "schema": "startport-art-production-review.v2",
+  "date": "2026-09-14",
+  "continues": "../SevilleSeria_20260913/REPORT.md",
+  "modelAssignment": {
+    "model": "gpt-6-astra",
+    "label": "Astra",
+    "reasoningEffort": "high",
+    "evidence": "User explicitly confirmed Astra high assignment in the current instruction.",
+    "independentRuntimeModelIdExposed": false,
+    "modelSwitchPerformedByThisTask": false
+  },
+  "imageEngine": {
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "underlyingModelId": null,
+    "note": "Backend model identifier not returned by image tool; separate from assigned coding model."
+  },
+  "availability": {
+    "callsThisPass": 3,
+    "pngReturns": 3,
+    "quotaError": null,
+    "successfulProductionDeliveries": 0,
+    "boundedPassStopped": true,
+    "stopReason": "Foreground alpha contract still fails; one Seria design and one targeted correction fail accessory continuity. Avoid repeated unbounded generation."
+  },
+  "sourcePreservation": {
+    "file": "../SevilleSeria_20260913/seville_day_source_v2_review.png",
+    "sha256": "e4a320fbfcc0ea3f4be85a90b88a1892f67e3a9008f278839154789bd07bd0e6",
+    "unchangedFromPriorProvenance": true
+  },
+  "outputs": [
+    {
+      "file": "seville_foreground_v2_rejected.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "3fecbda57bbe4b24ef71105b8b25bb9995db03713954102f5ebf6b6c0746d7d3",
+      "status": "rejected",
+      "reasons": [
+        "RGB PNG has no alpha channel; baked checkerboard.",
+        "Retained content changed: new support poles under shipyard awning; crane hook also retained despite the requested tree/awning-only extraction.",
+        "Exact source pixel registration not established."
+      ],
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-1b5b8103-d178-4f11-a4a5-a7366328e812.png",
+      "alphaChannel": false,
+      "visuallyInspected": true,
+      "installed": false,
+      "productionApproved": false
+    },
+    {
+      "file": "seria_eight_direction_design_v1_review.png",
+      "size": [
+        1322,
+        1190
+      ],
+      "sha256": "52e12b0c7458397e15380830ef6fda4ba8bde73bdff62aec75aa20ab7e0c0087",
+      "status": "reference-only-incomplete-design",
+      "reasons": [
+        "Eight requested directions and portrait hair/costume are visible.",
+        "Satchel occupies character right hip in back-facing views and left hip in front-facing views.",
+        "Detailed large figures are not exact 48x72 sprites; camera remains closer to an eye-level turnaround than final elevated RPG camera.",
+        "Magenta background intentionally requested for design review, not runtime transparency."
+      ],
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-fb7a7fc3-7d49-4073-a210-71887028f22b.png",
+      "alphaChannel": false,
+      "visuallyInspected": true,
+      "installed": false,
+      "productionApproved": false
+    },
+    {
+      "file": "seria_eight_direction_design_v2_rejected.png",
+      "size": [
+        1322,
+        1190
+      ],
+      "sha256": "cb96b38ce4b49f8ef8c0de0cb6bee63f711653bd8e5a31ad3a18e82080b2d632",
+      "status": "rejected-correction",
+      "reasons": [
+        "Targeted satchel continuity correction did not succeed.",
+        "North still has screen-right satchel; west profile still lacks visible near-side satchel.",
+        "No frames or production approval."
+      ],
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-432e2852-93f4-422d-a719-bf77d85dcbbc.png",
+      "alphaChannel": false,
+      "visuallyInspected": true,
+      "installed": false,
+      "productionApproved": false
+    }
+  ],
+  "calls": [
+    {
+      "order": 1,
+      "output": "seville_foreground_v2_rejected.png",
+      "prompt": "Use case: background-extraction.\nInput: the supplied original Seville daytime map is the EDIT TARGET, exactly 1672x941. Produce a functional foreground PNG registered pixel-for-pixel to this map, NOT new illustrated scenery. Keep the original image dimensions and positions. Extract ONLY existing orange-tree foliage/trunks and existing fabric awnings from the original. Preserve their source colors, shapes, scale and location exactly. Every pixel of pavement, buildings, roofs, doors, river, fountain, benches, crates and other nonselected background must become fully transparent alpha=0. Pixels inside retained objects must remain opaque. The final PNG MUST HAVE AN ACTUAL ALPHA CHANNEL. No baked checkerboard, no white or gray matte, no transparency visualization graphic. Do not redraw objects or lay them out into a sheet. No movement, no duplicate trees, no crop, no rescale, no new objects, no shadows on transparent ground. The foreground must align over the original source without any visible image shift. Return a real transparent PNG, not a mockup of transparency.",
+      "reference": "../SevilleSeria_20260913/seville_day_source_v2_review.png"
+    },
+    {
+      "order": 2,
+      "output": "seria_eight_direction_design_v1_review.png",
+      "prompt": "Use case: identity-preserve.\nCreate a dedicated Seria Allen character TURNAROUND DESIGN sheet from ONLY the top-center female portrait in the supplied atlas. Ignore the five other portraits. This is a new original sprite character drawn coherently from scratch, not a recolor, pasted portrait, hat overlay, stock sprite or composite.\nONLY EIGHT full-body standing figures, 4 columns x 2 rows. One neutral idle pose per direction, no animation variations yet. Top row left-to-right NORTH (back only), NORTHEAST (back-right), EAST (true right profile), SOUTHEAST (front-right three-quarter). Bottom row left-to-right SOUTH (full front), SOUTHWEST (front-left three-quarter), WEST (true left profile), NORTHWEST (back-left). All eight directions genuinely distinct.\nIdentity and costume: adult woman with the portrait's auburn curly hair gathered into a low tied bun/ponytail, loose temple curls, no hat, burgundy knee-length coat with antique-gold lapel trim and cuffs, ivory ruffled blouse, fitted dark-brown waistcoat, brown trousers and boots. Brown crossbody chart satchel physically attached at HER LEFT HIP in every direction; strap from HER RIGHT SHOULDER to HER LEFT HIP. Satchel must not swap sides when turning. Empty hands resting naturally beside body, no held map or instruments, no weapons. Match portrait face and color relationships. Feminine adult proportions, not chibi.\nStyle: precise low-resolution game PIXEL ART, designed to fit a 48x72 logical cell, character 60 pixels tall, visibly coarse deliberate pixel clusters, minimal facial pixels, strong readable silhouette. Render each figure at exact 4x pixel magnification if a larger sheet is required. Fixed slightly elevated north-up RPG camera, not eye-level illustration. Same body/head size and foot baseline in every cell. Entire hair, hands, coat and boots contained within generous empty gutters. No cropping. Do not add a ninth figure.\nBackground: flat uniform solid magenta #FF00FF, for design review only; no checkerboard or fake transparency. No shadows, labels, text, grid, props, scenery or decorative frames. Output one 4-column 2-row design sheet, eight standing views, not an 80-frame atlas.",
+      "reference": "Assets/Resources/Sprites/Game/V17/Captains/captain_portraits_v17.png"
+    },
+    {
+      "order": 3,
+      "output": "seria_eight_direction_design_v2_rejected.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the anatomical placement of the crossbody strap and satchel in this eight-direction Seria character sheet. Keep all eight figures, directions, face, hair, clothing design, colors, pose, scale, pixel style, magenta background and exact positions unchanged. Satchel is ALWAYS on HER LEFT HIP; strap ALWAYS runs from HER RIGHT SHOULDER to HER LEFT HIP.\nTop-left NORTH back-view figure is WRONG: move satchel from screen-right to SCREEN-LEFT HIP, strap from SCREEN-RIGHT SHOULDER diagonally down to SCREEN-LEFT HIP. Keep hair/bun and coat buttons/seams unchanged. Top-row second NE back-right view must agree with this: left hip on its visible left/back side, not screen-right. Bottom-row last NW back-left view must agree with NORTH too: do not mirror anatomical placement simply to show the bag. Top-row third EAST true-right profile: left-hip bag is on far side and should be mostly hidden by body; do not display a bag on the near right hip. Bottom-row third WEST profile: left-hip bag is on near side and should be visible. SOUTH/front view bottom-left is already correct with bag on screen-right; preserve it. Both front three-quarter views must maintain same anatomical left-hip placement. Eight figures remain exactly in the original 4-column x 2-row grid, no additions, no animation frames, no labels, no new props. One targeted accessory continuity correction, no hat or recolor.",
+      "reference": "seria_eight_direction_design_v1_review.png"
+    }
+  ],
+  "acceptedAssets": [],
+  "acceptedDesignObservations": [
+    "Existing Seville v2 retained as the working source candidate.",
+    "Seria auburn low bun, burgundy/gold coat, ivory blouse and brown waistcoat align with portrait identity.",
+    "Eight distinct standing views present in v1 turnaround."
+  ],
+  "pending": [
+    "Genuine alpha and source-registered foreground",
+    "Complete coherent eight-direction Seria design",
+    "48x72 frame export",
+    "4 idle and 6 walk per direction",
+    "Live occlusion verification"
+  ],
+  "integrationOwner": {
+    "file": "Web/seville_town.js",
+    "task": "01a09ffe-1df0-78d1-8316-1a266cda920a",
+    "role": "Luna integrator per user",
+    "coordination": "Through requesting user; no direct task message sent."
+  },
+  "offlineCaptureReview": [
+    {
+      "file": "Docs/Screenshots/StartPortArt/GameRenderInterior/seville_guild_1f_1920x1080.png",
+      "sha256": "d7f456c5b7340c87dd63824d8aaa61bf2390a0940e771dd8c55256bb7805b15b",
+      "size": [
+        1920,
+        1080
+      ],
+      "captureType": "offline actual rendering path; not browser",
+      "findings": [
+        {
+          "priority": 2,
+          "region": [
+            1214,
+            225,
+            61,
+            142
+          ],
+          "observation": "Upper-right NPC appears washed-out/gray and visually blends into the floor; exact alpha mechanism not diagnosed."
+        },
+        {
+          "priority": 2,
+          "regions": [
+            [
+              1200,
+              290,
+              24,
+              30
+            ],
+            [
+              980,
+              865,
+              23,
+              32
+            ]
+          ],
+          "observation": "Beige actor-adjacent rectangular shapes appear detached; may be an unfinished paper/prop representation rather than furniture occlusion."
+        }
+      ],
+      "occlusionVerdict": "No actor shown behind table/counter/railings; cannot approve depth ordering from this still."
+    },
+    {
+      "file": "Docs/Screenshots/StartPortArt/GameRenderInterior/seville_lodge_2f_1280x720.png",
+      "sha256": "f5343e2a9852e2c70415a03545dddd882628c3261e2e958a2994bd1e643c48a9",
+      "size": [
+        1280,
+        720
+      ],
+      "captureType": "offline actual rendering path; not browser",
+      "findings": [
+        {
+          "priority": 2,
+          "region": [
+            437,
+            289,
+            39,
+            69
+          ],
+          "observation": "Companion southeast of bed has faint/washed-out body and poor separation from floor."
+        },
+        {
+          "priority": 2,
+          "region": [
+            409,
+            265,
+            25,
+            24
+          ],
+          "observation": "Flat beige rectangle beside bed-side actor does not match surrounding detailed material rendering."
+        }
+      ],
+      "occlusionVerdict": "Actors are beside bed on open floor, not crossing bed edge or staircase railing; no definite furniture-cover error demonstrated."
+    }
+  ]
+}

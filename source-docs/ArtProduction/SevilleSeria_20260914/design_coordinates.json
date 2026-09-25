@@ -1,0 +1,263 @@
+{
+  "schema": "art-design-handoff.v1",
+  "date": "2026-09-14",
+  "productionApproved": false,
+  "town": {
+    "source": "../SevilleSeria_20260913/seville_day_source_v2_review.png",
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "mapTiles": [
+      64,
+      36
+    ],
+    "targetDisplayPixels": [
+      1920,
+      1080
+    ],
+    "origin": "top-left",
+    "existingDoorsAndFootprints": "../SevilleSeria_20260913/seville_integration_proposal.json",
+    "sourceToTile": "[x*64/1672,y*36/941]",
+    "noCoordinateRemapRequired": true
+  },
+  "foreground": {
+    "acceptedFile": null,
+    "rejectedFile": "seville_foreground_v2_rejected.png",
+    "strategy": "Extract exact original source colors through individually traced silhouette masks; transformed/repainted generation is not a registered layer.",
+    "regionsStatus": "Approximate source-pixel design regions for tracing, not alpha masks or collision geometry.",
+    "regions": [
+      {
+        "id": "market-west-awning",
+        "rect": [
+          115,
+          440,
+          84,
+          61
+        ]
+      },
+      {
+        "id": "market-upper-awning",
+        "rect": [
+          198,
+          371,
+          82,
+          52
+        ]
+      },
+      {
+        "id": "market-east-awning",
+        "rect": [
+          279,
+          443,
+          75,
+          54
+        ]
+      },
+      {
+        "id": "lodge-awning",
+        "rect": [
+          1403,
+          196,
+          43,
+          34
+        ]
+      },
+      {
+        "id": "harbor-east-canvas",
+        "rect": [
+          1478,
+          397,
+          57,
+          98
+        ]
+      },
+      {
+        "id": "shipyard-awning",
+        "rect": [
+          1246,
+          646,
+          114,
+          67
+        ]
+      },
+      {
+        "id": "plaza-tree-northwest",
+        "rect": [
+          676,
+          329,
+          71,
+          88
+        ],
+        "groundAnchor": [
+          711,
+          415
+        ]
+      },
+      {
+        "id": "plaza-tree-northeast",
+        "rect": [
+          916,
+          325,
+          72,
+          93
+        ],
+        "groundAnchor": [
+          953,
+          417
+        ]
+      },
+      {
+        "id": "plaza-tree-east-north",
+        "rect": [
+          1000,
+          336,
+          79,
+          95
+        ],
+        "groundAnchor": [
+          1040,
+          430
+        ]
+      },
+      {
+        "id": "plaza-tree-west-mid",
+        "rect": [
+          673,
+          467,
+          75,
+          100
+        ],
+        "groundAnchor": [
+          711,
+          564
+        ]
+      },
+      {
+        "id": "plaza-tree-east-mid",
+        "rect": [
+          916,
+          462,
+          76,
+          103
+        ],
+        "groundAnchor": [
+          954,
+          562
+        ]
+      },
+      {
+        "id": "plaza-tree-east-outer",
+        "rect": [
+          1006,
+          467,
+          76,
+          100
+        ],
+        "groundAnchor": [
+          1045,
+          565
+        ]
+      },
+      {
+        "id": "plaza-tree-southwest",
+        "rect": [
+          686,
+          614,
+          76,
+          109
+        ],
+        "groundAnchor": [
+          725,
+          720
+        ]
+      },
+      {
+        "id": "plaza-tree-southeast",
+        "rect": [
+          909,
+          610,
+          81,
+          111
+        ],
+        "groundAnchor": [
+          950,
+          719
+        ]
+      }
+    ],
+    "omissions": "Other boundary planting and narrow cypresses still need tracing if their silhouettes overlap permitted actor routes. No region is an approved collision footprint.",
+    "rendering": "Use source origin [0,0] for full-size alpha layer. Keep per-object source bounds and ground anchors for depth sorting. Do not shift doors or map geometry to match generated foreground."
+  },
+  "seria": {
+    "referenceSheet": "seria_eight_direction_design_v1_review.png",
+    "sourceSize": [
+      1322,
+      1190
+    ],
+    "layout": [
+      4,
+      2
+    ],
+    "readOrder": [
+      "N",
+      "NE",
+      "E",
+      "SE",
+      "S",
+      "SW",
+      "W",
+      "NW"
+    ],
+    "cellRegions": "Concept regions only: x=i*330.5, y=j*595. Not integer sprite frame cuts.",
+    "approximateFootBaselinesSource": [
+      572,
+      1145
+    ],
+    "targetCell": [
+      48,
+      72
+    ],
+    "targetPivotTopLeft": [
+      24,
+      69
+    ],
+    "targetContentBounds": [
+      5,
+      7,
+      38,
+      62
+    ],
+    "targetAnimationAtlas": [
+      480,
+      576
+    ],
+    "targetRows": [
+      "N",
+      "NE",
+      "E",
+      "SE",
+      "S",
+      "SW",
+      "W",
+      "NW"
+    ],
+    "targetIdleColumns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "targetWalkColumns": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "continuityRule": "Satchel on anatomical LEFT hip; strap anatomical RIGHT shoulder to LEFT hip. N back view requires bag screen-left; S front view bag screen-right; E far-side bag mostly hidden; W near-side bag visible.",
+    "designApproved": false,
+    "frameGenerationAllowedByCurrentReview": false
+  }
+}

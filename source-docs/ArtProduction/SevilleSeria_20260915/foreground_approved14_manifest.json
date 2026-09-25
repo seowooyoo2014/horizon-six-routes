@@ -1,0 +1,94 @@
+{
+  "schema": "seville-approved-foreground.v1",
+  "reviewedAt": "2026-09-22",
+  "approval": "Approved asset subset for bounded Seville integration; final runtime screenshot review pending",
+  "review": "BOUNDED_ART_REVIEW_20260920.md",
+  "source": "../SevilleSeria_20260913/seville_day_source_v2_review.png",
+  "sourceSha256": "e4a320fbfcc0ea3f4be85a90b88a1892f67e3a9008f278839154789bd07bd0e6",
+  "sourceSize": [
+    1672,
+    941
+  ],
+  "parentManifest": "foreground_manifest.json",
+  "parentManifestSha256": "24980792a09ffc51122dc625bceef67aeadf7ce82d6ff110b4e8bffe73b6845e",
+  "runtimeSourceProjectRelative": "Assets/Resources/Sprites/Game/SevilleQuality/seville_town_source_v2.png",
+  "origin": "top-left; positive X right, positive Y down",
+  "rectFormat": "[x,y,width,height]; right/bottom exclusive",
+  "registeredOffset": [
+    0,
+    0
+  ],
+  "logicalMapSize": [
+    64,
+    36
+  ],
+  "targetPlaneSize": [
+    1920,
+    1080
+  ],
+  "renderContract": {
+    "baseAlreadyContainsObjects": true,
+    "placementSource": "sourceRect.xy = anchor - anchorLocal",
+    "preserveOutsideImageAnchors": true,
+    "sourceToLogical": "[x*64/1672,y*36/941]",
+    "containScale": "min(1920/1672,1080/941)",
+    "containOffset": "[(1920-1672*scale)/2,(1080-941*scale)/2]",
+    "destination": "containOffset + sourceRect.xy*scale - camera; size = sourceRect.wh*scale",
+    "sampling": "Share background transform, pixel phase and nearest-neighbor sampling; no independent recentering, stretching or crop rounding",
+    "backgroundFirst": true,
+    "depthSort": "Merge foreground objects and existing actors ascending by ground Y",
+    "foregroundDepth": "anchorY*36/941 in logical tile Y",
+    "actorDepth": "existing actor foot Y in logical tiles",
+    "equalDepth": "foreground before actor; preserve existing stable actor order",
+    "globalAfterAllActorsPassAllowed": false,
+    "sourceAlpha": "binary 0/255; transparent padding never occludes",
+    "defaultForegroundOpacity": 1,
+    "fade": {
+      "trigger": "Intersection of this foreground's nonzero alpha and an existing behind-actor's rendered nonzero alpha",
+      "region": "Only intersecting foreground pixels; keep non-overlap foreground at opacity 1",
+      "foregroundOpacity": "Implementation-selected value in [0,1) during overlap; final appearance review pending",
+      "actorOpacity": "Never change actor alpha, fade state, tint, sprite or animation",
+      "restoreCanvasState": "Isolate foreground alpha/clipping/compositing with save/restore, including failure paths",
+      "backgroundLimit": "Overlay fading reveals intervening actors; it cannot remove baked background objects or reveal a clean ground plate"
+    },
+    "loadGate": "Enable subset only when all 14 approved PNGs are decoded with expected sizes; failure leaves this optional layer off and retains committed town",
+    "geometry": "No collision, door, cargo-footprint, route, map-size or actor-placement changes are authorized by this manifest"
+  },
+  "rejectedCombinedFile": "seville_foreground_registered_1672x941.png",
+  "excludedIds": [
+    "plaza-ne",
+    "plaza-east-small",
+    "plaza-se",
+    "market-east-tree",
+    "shipyard-east-tree",
+    "market-side-canvas",
+    "harbor-east-canvas",
+    "shipyard-canvas",
+    "lodge-west-canvas",
+    "lodge-east-canvas"
+  ],
+  "verification": {
+    "objectCount": 14,
+    "opaquePixels": 44286,
+    "rgbChannelMismatches": 0,
+    "partialAlphaPixels": 0,
+    "overlapPixels": 0
+  },
+  "runtimeVisualReview": "pending Luna implementation and screenshots",
+  "objects": [
+    {"id":"plaza-nw","type":"tree","filename":"foreground_objects/plaza-nw.png","sha256":"e94c00a6381a54210410759abc23fb53aaf53747e5c2dd04add81a79fcec83d0","sourceRect":[677,331,69,79],"anchor":[710,406],"anchorY":406,"anchorLocal":[33,75],"anchorTile":[27.177033492822968,15.532412327311372],"opaquePixels":2951},
+    {"id":"plaza-east-upper","type":"tree","filename":"foreground_objects/plaza-east-upper.png","sha256":"84b3787606638e191ddab351bfe7f895ccf8311594a9310452c585b1fe952857","sourceRect":[1007,340,72,87],"anchor":[1043,424],"anchorY":424,"anchorLocal":[36,84],"anchorTile":[39.92344497607655,16.221041445270988],"opaquePixels":2989},
+    {"id":"plaza-west-middle","type":"tree","filename":"foreground_objects/plaza-west-middle.png","sha256":"889eaffb10ae42f856a7e610d78f296fbbffa5e689e97bfef7edb449ed403308","sourceRect":[678,464,71,86],"anchor":[712,548],"anchorY":548,"anchorLocal":[34,84],"anchorTile":[27.25358851674641,20.96493092454835],"opaquePixels":3140},
+    {"id":"plaza-east-middle","type":"tree","filename":"foreground_objects/plaza-east-middle.png","sha256":"0170fd5c0d92c37d0891da61fe06b356fc451c603a6fd1a95ddc19fbbe72b3ea","sourceRect":[917,461,77,89],"anchor":[954,548],"anchorY":548,"anchorLocal":[37,87],"anchorTile":[36.516746411483254,20.96493092454835],"opaquePixels":3329},
+    {"id":"plaza-east-outer","type":"tree","filename":"foreground_objects/plaza-east-outer.png","sha256":"2eabff08dac3d0e141759a3d7122667b41c72779cdcf2a8e0140a2cb7ae610b1","sourceRect":[1007,469,72,81],"anchor":[1043,548],"anchorY":548,"anchorLocal":[36,79],"anchorTile":[39.92344497607655,20.96493092454835],"opaquePixels":3079},
+    {"id":"plaza-sw","type":"tree","filename":"foreground_objects/plaza-sw.png","sha256":"5830809598dc1e68dda14e2f285c338813f9cf88b9eb8c4256149d92e53754b4","sourceRect":[691,613,83,90],"anchor":[729,708],"anchorY":708,"anchorLocal":[38,95],"anchorTile":[27.904306220095695,27.08607863974495],"opaquePixels":3624},
+    {"id":"home-west-tree","type":"tree","filename":"foreground_objects/home-west-tree.png","sha256":"e3a0f658a67caf103710adcbb6e5f77b2df73999545d5e8b0dac8dda6f3296ee","sourceRect":[208,567,79,97],"anchor":[245,660],"anchorY":660,"anchorLocal":[37,93],"anchorTile":[9.37799043062201,25.249734325185972],"opaquePixels":4246},
+    {"id":"southwest-tree","type":"tree","filename":"foreground_objects/southwest-tree.png","sha256":"33dd7ac6a7d60999051a1ce92e623051c368d16518006eae09430620524843be","sourceRect":[47,566,78,92],"anchor":[85,655],"anchorY":655,"anchorLocal":[38,89],"anchorTile":[3.2535885167464116,25.05844845908608],"opaquePixels":3915},
+    {"id":"harbor-west-tree","type":"tree","filename":"foreground_objects/harbor-west-tree.png","sha256":"fbf7179c95fccb598df65ed1478ca451b23f149d81c98a9098ca7051385a758c","sourceRect":[1151,333,69,82],"anchor":[1185,412],"anchorY":412,"anchorLocal":[34,79],"anchorTile":[45.35885167464115,15.761955366631243],"opaquePixels":3123},
+    {"id":"harbor-east-tree","type":"tree","filename":"foreground_objects/harbor-east-tree.png","sha256":"a6b820e7e5cc5cfd5a89e6f3a273c07438c7980109488c3df3f1815b3ee545f7","sourceRect":[1484,329,77,91],"anchor":[1525,416],"anchorY":416,"anchorLocal":[41,87],"anchorTile":[58.3732057416268,15.91498405951116],"opaquePixels":3589},
+    {"id":"market-west-canvas","type":"awning","filename":"foreground_objects/market-west-canvas.png","sha256":"375201cb845f1a2304d1b912f70e051d087d41c05e93759f70b05b1d6321ae82","sourceRect":[116,444,79,52],"anchor":[151,520],"anchorY":520,"anchorLocal":[35,76],"anchorTile":[5.779904306220096,19.893730074388948],"opaquePixels":3811},
+    {"id":"market-upper-canvas","type":"awning","filename":"foreground_objects/market-upper-canvas.png","sha256":"12f2932656fbf5043f5edffe5f3f8c83be0780e2c936fc35a96260b3a32c2dd8","sourceRect":[201,375,79,46],"anchor":[239,489],"anchorY":489,"anchorLocal":[38,114],"anchorTile":[9.148325358851675,18.707757704569605],"opaquePixels":3381},
+    {"id":"market-east-canvas","type":"awning","filename":"foreground_objects/market-east-canvas.png","sha256":"c237fac9e6c00d9ceac05261827cc1a05cdf511528a53e2d76798b4463e80eb7","sourceRect":[282,450,68,45],"anchor":[313,520],"anchorY":520,"anchorLocal":[31,70],"anchorTile":[11.980861244019138,19.893730074388948],"opaquePixels":2437},
+    {"id":"market-farwest-canvas","type":"awning","filename":"foreground_objects/market-farwest-canvas.png","sha256":"ed20c13a06ff3cf81b0a16a1d54878a39edc0698e20d765fe431761ef67d871a","sourceRect":[81,396,30,38],"anchor":[91,479],"anchorY":479,"anchorLocal":[10,83],"anchorTile":[3.4832535885167464,18.32518597236982],"opaquePixels":672}
+  ]
+}

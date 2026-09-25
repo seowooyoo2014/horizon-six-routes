@@ -1,0 +1,160 @@
+{
+  "schema": "startport-art-production-review.v1",
+  "date": "2026-09-13",
+  "taskScope": "Seville town and dedicated Seria first; no runtime integration",
+  "agentModel": {
+    "family": "GPT-6",
+    "evidence": "Active session developer model-switch instruction identifies the agent as GPT-6.",
+    "exactDeploymentId": null,
+    "variant": "not exposed; no Astra/Luna tier claimed"
+  },
+  "imageEngine": {
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "exactBackendModel": null,
+    "modelSelectionExposed": false,
+    "notes": "Tool returned image_url and output_hint; no image-backend model identifier. Do not infer GPT Image model version from agent model."
+  },
+  "toolAvailability": {
+    "attemptedCalls": 6,
+    "pngResults": 6,
+    "quotaBlocked": false,
+    "quotaError": null
+  },
+  "globalApproval": {
+    "productionApproved": false,
+    "integrationReady": false,
+    "installed": false,
+    "castPendingUserVerified": 108,
+    "startportFloorsUserVerified": 120
+  },
+  "outputs": [
+    {
+      "file": "seville_day_source_v1_review.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-074dd1e8-792b-41a1-aa70-0ddad1562f66.png",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "superseded-review-candidate",
+      "sha256": "270154196f8cf383816b9af9e6d362be74dbe3004312f28df2c05124d7d1ec1e",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    },
+    {
+      "file": "seville_day_source_v2_review.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-35a0188f-6ce6-497c-9ff5-e0c412df896b.png",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "review-candidate-not-production-approved",
+      "sha256": "e4a320fbfcc0ea3f4be85a90b88a1892f67e3a9008f278839154789bd07bd0e6",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    },
+    {
+      "file": "seria_atlas_v1_rejected.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-90e6e118-46fa-4980-8d91-fa6792658091.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "status": "rejected",
+      "sha256": "55632605fcf1da4b586e82ef496dced35bf54843df9253ef5ba1f920a190bac5",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    },
+    {
+      "file": "seria_atlas_v2_rejected.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-e09c9c70-24f0-4e0f-9bca-a73838881a3c.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "status": "rejected",
+      "sha256": "e66c0b449e3f7a484a5cc0ad81f572100039f263e9468c2cb571042c31fbf126",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    },
+    {
+      "file": "seville_foreground_v1_rejected.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-39813c7d-2a87-4d64-8268-44ab9599b83f.png",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "rejected",
+      "sha256": "4c81454c8d875007b525c8e75702935b12b0d6bfced35b7b52c786521d02e7ee",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    },
+    {
+      "file": "seria_east_walk_study_v1_review.png",
+      "source": "/Users/seol-eunjin/.codex/generated_images/01a09b11-cdc2-7782-ae84-5f0b32bc468b/exec-aff5bdd2-5d1f-4438-9db8-32cd509076ca.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "status": "pose-study-not-production-approved",
+      "sha256": "010a0bf327cb4eb7383c9247d024b50394b58877d811021c4e614c1690f801d9",
+      "hasAlpha": false,
+      "visualInspection": "Inspected generated image in this task.",
+      "installed": false
+    }
+  ],
+  "calls": [
+    {
+      "order": 1,
+      "output": "seville_day_source_v1_review.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: original detailed pixel-art playable Seville town background, target EXACT 1920x1080 PNG, 64x36 logical tile map with 30px tiles. Render ONE full continuous map, no panels.\nPrimary request: Original Seville starting-town art. Classic north-up top-down three-quarter RPG orthographic composition, visible rooftops and south-facing facades, no perspective horizon, no isometric diagonal rotation. Reference_13 composition characteristics: dense individually crafted civic buildings across north, smaller buildings on sides, generous central paved plaza and bottom waterfront with central pier. Reference_12 material characteristics ONLY: intricate chiseled stone blocks, worn timber grain, iron brackets, rope coils, folded canvas awnings, crate joinery, rich tactile pixel clusters. Do NOT use its street-level camera or sunset.\nLighting: readable clear DAYLIGHT from upper left, neutral pale limestone/stucco, rust-red clay roof tiles, teal glazed accents, azure water, green orange trees, small burgundy awnings. Short cool shadows with fully readable doors and paving; no sunset/orange wash, no bloom, no blur.\nCompose exactly TEN visually separate buildings with distinct asymmetric roof shapes and ONE south-facing street-connected main door each. No anonymous background architecture or extra ground-floor archways. In 64x36 tile coordinates (specification only, never draw labels/grid): bank roof/body footprint x2..10 y1..10 with south door (6,10); estate x13..23 y1..10 door(18,10); mansion x26..36 y1..10 door(31,10); cartography GUILD x39..49 y1..10 door(44,10), identifiable brass rooftop armillary and chart case; LODGING x53..62 y1..10 door(57,10). All upper doorways lead into wide east-west road y11..14. MARKET x2..11 y15..22 door(6,22) with attached striped awning and baskets; INN x14..23 y15..22 door(18,22) with balcony/chimney; HOME x8..18 y25..29 door(13,29); HARBOR office x49..61 y15..22 door(55,22) with squat lookout tower; SHIPYARD x44..60 y25..29 door(50,29) with timber ribs stored against east wall. Keep every door clear with 2+ tiles of open connected street. Keep central north-south thoroughfare x26..39 clear from y11 to y32. One small dry fountain at (31,18), footprint 4x3 tiles, with clear passage both sides. Small edge planters, a few iron bollards and benches outside doors/routes. Map border must contain all main roof silhouettes.\nWATER: River only in last 4 rows y32..36, continuous straight quay at y32; central stone pier x29..35 from y31..36 with accessible steps. No channels or water anywhere else. No ships blocking paths.\nThis is background/base scene for later separately aligned foreground layer: keep roof overhangs, tree canopies and awnings clearly outlined for occlusion extraction; do not add a second panel. No people, sprites, lettering, labels, UI, grid, watermark or border. Crisp deliberate pixel clusters, richly detailed original architecture, consistent building/door scale, designed game map rather than oil painting.",
+      "referencePaths": [],
+      "referenceUse": "Inspected reference_13 composition and reference_12 materials were described in text; no direct reference image paths passed for this new generation."
+    },
+    {
+      "order": 2,
+      "output": "seria_atlas_v1_rejected.png",
+      "prompt": "Use case: identity-preserve.\nTransform ONLY the TOP-CENTER female portrait in the supplied atlas into Seria Allen (runtime ines), a dedicated new full-body pixel-art game animation sheet. Other five people are NOT subjects. Keep portrait identity: auburn curly hair tied into a low bun/ponytail, loose temple curls, adult woman, burgundy long coat with antique-gold lapel trim, ivory ruffled blouse, fitted dark brown waistcoat, belt and attached crossbody chart satchel. Brown trousers and calf-high leather boots. No hat, no recolor of a stock character, no pasted accessories. Empty hands so walking arms swing freely. Charts stored physically inside attached satchel.\nOutput ONE genuine transparent RGBA PNG atlas, EXACT 480x576 logical pixels (or exact 4x nearest-neighbor 1920x2304), ten columns by eight rows, 80 sprites total, NO text/grid/matte/checkerboard graphic. Each logical cell 48x72, sprite body fits x5..42 y7..68, consistent foot pivot [24,69], transparent gutters, crisp pixel clusters, no antialiasing or semitransparent skin. Complete boots inside every cell.\nRows top to bottom: N back, NE back-right, E true right profile, SE front-right, S full front, SW FRONT-LEFT showing ivory blouse and front gold lapels, W true left profile, NW back-left. Eight distinct directions, same elevated orthographic RPG camera.\nColumns 1-4: four distinct breathing idle poses, restrained shoulder/coat movement, feet planted.\nColumns 5-10: SIX-FRAME WALK LOOP, emphatic alternating foot placement: 5 LEFT FOOT forward/right back contact; 6 legs bending closer down phase; 7 feet crossing directly below torso passing phase; 8 RIGHT FOOT forward/left back opposite contact; 9 knees bending closer opposite down phase; 10 feet crossing under torso opposite passing phase. Opposite arms counter-swing. Side-view rows must alternate WIDE, MEDIUM, NARROW, WIDE OPPOSITE LEG, MEDIUM, NARROW silhouettes. Coat tails sway following the actual steps. Do not repeat standing or the same open-leg pose in six walk cells. Back/front views must have visible alternating sole/boot shading. All frames same size and identity. Every cell a newly drawn coherent pose, no floating objects, no silhouettes assembled from a portrait.",
+      "referencePaths": [
+        "Assets/Resources/Sprites/Game/V17/Captains/captain_portraits_v17.png"
+      ]
+    },
+    {
+      "order": 3,
+      "output": "seville_day_source_v2_review.png",
+      "prompt": "Use case: precise-object-edit. Edit this Seville town map. Preserve its north-up orthographic overhead composition, ten main buildings, readable DAYLIGHT, detailed crisp pixel-art stone/timber/roof materials, central dry fountain, broad connected plaza and central stone pier. Return ONE image in EXACT 1920x1080 pixels if supported. Make these targeted production corrections: (1) The left-middle MARKET building needs one unmistakable closed wooden south-facing entrance with visible stone threshold around normalized (0.14,0.56). Replace the central bottom stack of market produce with that door; keep side stalls and awnings away from it. (2) Remove partial anonymous buildings/roof fragments intruding at extreme left edge and extreme right edge. Fill those slivers with matching paved walking margin, low planters or boundary greenery; retain all TEN main buildings. (3) Ensure all five north-row rooftops are fully inside frame with a little visible margin, no roof clipping. Do not change doors or locations elsewhere. Keep ten accessible south-facing entrances, no extra ground floor dark openings. Do not add people, writing, UI, labels, grid, haze, sunset lighting or more architecture. Final full map intended for 64x36 logical tiles.",
+      "referencePaths": [
+        "seville_day_source_v1_review.png"
+      ]
+    },
+    {
+      "order": 4,
+      "output": "seria_atlas_v2_rejected.png",
+      "prompt": "Use case: precise-object-edit. Correct the supplied Seria sprite atlas for actual game use. Keep her dedicated auburn tied-back hair, burgundy gold-trim coat, ivory blouse, dark waistcoat, attached chart satchel and boots faithful to the original design. Do not add a hat or use recolored template art.\nCRITICAL FORMAT: input incorrectly contains ELEVEN columns. Output must contain EXACTLY TEN COLUMNS, EIGHT ROWS: 80 characters. Remove the extra final column. Exact final PNG 480x576 pixels, cell 48x72; or exact 4x source 1920x2304. NO other canvas dimensions requested. Row directions stay N,NE,E,SE,S,SW,W,NW. Empty transparent gutters around each complete body. Feet at y69, x24 in each logical cell.\nCRITICAL ALPHA: remove ALL checkerboard pixels. Produce genuine transparent background with alpha=0. Checkerboard is NOT a texture to reproduce. Preserve solid opaque ivory blouse/skin pixels, all character interiors opaque. No gray matte, no white matte, no grid, no labels, no shadow.\nCRITICAL ANIMATION: columns 1-4 breathing idle. Columns 5-10 six-frame walk: left-contact, left-down, passing-under-torso, right-contact, right-down, opposite-passing. In profile E/W rows show visibly different leg separation WIDE/MEDIUM/NARROW/WIDE/MEDIUM/NARROW, alternating which foot is in front and opposite arm swings. Current last walking columns repeat an extended leg and are not accepted. Front/back rows also alternate which boot moves forward. Keep the same 8 directions and identity throughout. One technically exact PNG, no explanations.",
+      "referencePaths": [
+        "seria_atlas_v1_rejected.png"
+      ]
+    },
+    {
+      "order": 5,
+      "output": "seville_foreground_v1_rejected.png",
+      "prompt": "Use case: background-extraction.\nEdit the supplied Seville map into its aligned FOREGROUND OCCLUSION LAYER ONLY. Preserve exact image canvas, camera, every retained object's size and pixel position; do NOT recompose, move, resize, add or repaint objects. Return PNG with genuine transparent RGBA alpha, no checkerboard or matte graphic.\nRetain ONLY the orange-tree canopies and their trunks, and the projecting fabric awnings on the market (left-middle), lodging (upper-right), and shipyard (lower-right); these are the objects that can overlap walking characters. Keep their original opaque pixels and clean edges. Remove all pavement, water, fountain, stone buildings, roofs, walls, doors, ship hull, crates, planters, benches, lamps, background and cast ground shadows to alpha=0. Do not include any ground patches under the trunks. No roof should appear in this layer. Keep exact registration to the supplied background, target same 16:9 canvas (1920x1080 if exact registered export supported; otherwise preserve source dimensions). Empty parts must be ACTUAL TRANSPARENCY. This is one functional game layer for drawing over the same original image, not an illustration of objects laid out for presentation. No new objects, no text, no outlines outside original edges.",
+      "referencePaths": [
+        "seville_day_source_v2_review.png"
+      ]
+    },
+    {
+      "order": 6,
+      "output": "seria_east_walk_study_v1_review.png",
+      "prompt": "Use case: identity-preserve. Use ONLY the top-center auburn-haired woman of the supplied portrait as identity and costume reference. Create a dedicated Seria Allen east-facing walk cycle pose source for a pixel-art RPG. New coherent full-body drawings of her, not a recolor or composite. Curly auburn hair tied low, burgundy gold-trim long coat, ivory blouse, fitted brown waistcoat, brown trousers and boots, attached crossbody chart satchel, no hat, empty hands.\nDraw EXACTLY SIX full-body figures, arranged as THREE COLUMNS and TWO ROWS on plain SOLID MAGENTA #FF00FF. This matte is explicitly for production review, not transparency. No checkerboard, no ground shadow, no lettering. All six face EAST in true right profile, same size, feet on consistent ground line within each cell. Crisp 48x72 logical-pixel design, deliberate pixels not smooth vector art. Keep large clean gaps and entire figures including boots.\nThis is one chronological six-frame walk cycle. Read order left to right top row then left to right bottom row:\n1 LEFT foot planted FAR FORWARD to the right of torso, right leg straight back to left; RIGHT arm forward. Wide stride.\n2 Left foot under front of hips, knees bent, right heel lifting behind. Medium stride, body slightly down.\n3 LEFT leg straight down under pelvis supporting body, RIGHT knee raised and moving forward, the two legs close together vertically. NARROW passing silhouette, not an extended stride.\n4 RIGHT foot planted FAR FORWARD to right of torso, LEFT leg extended behind to left, LEFT arm forward. Opposite contact. Wide stride.\n5 Right foot beneath front of hips, left heel lifting behind, knees bent. Medium stride.\n6 RIGHT leg straight down supporting, LEFT knee raised crossing forward. NARROW passing silhouette, not extended stride.\nCritical: silhouettes 1/4 wide, 2/5 medium, 3/6 narrow with one standing vertical leg. These MUST NOT all be the same open-stride pose. Make each physical pose visibly distinct. Preserve portrait costume and hair in every frame. Exactly 3 columns x 2 rows, six figures.",
+      "referencePaths": [
+        "Assets/Resources/Sprites/Game/V17/Captains/captain_portraits_v17.png"
+      ]
+    }
+  ]
+}

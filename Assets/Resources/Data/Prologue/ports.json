@@ -1,0 +1,30 @@
+{
+  "ports": [
+    {
+      "id": "bella",
+      "name": "벨라 항",
+      "region": "서부 내해",
+      "description": "유리 공방과 왕립 조선소가 맞닿은 리안의 고향 항구.",
+      "market": [
+        { "goodId": "salt", "buyPrice": 42, "sellPrice": 32, "stock": 9 },
+        { "goodId": "glass", "buyPrice": 78, "sellPrice": 59, "stock": 8 },
+        { "goodId": "wine", "buyPrice": 54, "sellPrice": 41, "stock": 7 },
+        { "goodId": "timber", "buyPrice": 66, "sellPrice": 48, "stock": 5 },
+        { "goodId": "spice", "buyPrice": 190, "sellPrice": 146, "stock": 2 }
+      ]
+    },
+    {
+      "id": "genoa",
+      "name": "제노아 남항",
+      "region": "남부 상업해",
+      "description": "상단의 창고와 서점이 밀집한 자유 교역항.",
+      "market": [
+        { "goodId": "salt", "buyPrice": 34, "sellPrice": 26, "stock": 12 },
+        { "goodId": "glass", "buyPrice": 142, "sellPrice": 126, "stock": 2 },
+        { "goodId": "wine", "buyPrice": 47, "sellPrice": 36, "stock": 10 },
+        { "goodId": "timber", "buyPrice": 83, "sellPrice": 64, "stock": 7 },
+        { "goodId": "spice", "buyPrice": 168, "sellPrice": 132, "stock": 4 }
+      ]
+    }
+  ]
+}

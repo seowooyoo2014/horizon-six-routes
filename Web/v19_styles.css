@@ -1,0 +1,4 @@
+.v17-select .v17-portrait{image-rendering:pixelated;background:#071317;border:2px solid var(--captain);box-shadow:inset 0 0 0 3px #17262a}
+.v17-select .v17-captain.selected{outline:2px solid var(--captain);outline-offset:-3px;background:#173139}
+.v19-opening-note{border-left:3px solid #d0a74e;padding-left:12px;color:#f4dfaa}
+@media(max-width:900px){.v17-scenario{grid-template-columns:190px 1fr}.v17-captain-detail{grid-template-columns:180px 1fr}.captain-stats{display:none}}

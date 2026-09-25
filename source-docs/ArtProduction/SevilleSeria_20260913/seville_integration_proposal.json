@@ -1,0 +1,518 @@
+{
+  "schema": "seville-art-integration-proposal.v1",
+  "source": "seville_day_source_v2_review.png",
+  "sourceSize": [
+    1672,
+    941
+  ],
+  "targetSize": [
+    1920,
+    1080
+  ],
+  "logicalMapSize": [
+    64,
+    36
+  ],
+  "targetPixelsPerTile": 30,
+  "origin": "top-left; x right, y down",
+  "status": "proposal-not-runtime-collision",
+  "approved": false,
+  "measurement": "Visual estimates +/-8 source pixels at doors; visual extents are conservative envelopes, not traced ground collision.",
+  "transform": {
+    "sourceToTile": "[x*64/1672,y*36/941]",
+    "sourceToTargetPixel": "[x*1920/1672,y*1080/941]",
+    "unityBottomLeft": "tileY=36-sourceY*36/941; do not apply twice"
+  },
+  "buildings": [
+    {
+      "id": "bank",
+      "intendedFootprintTiles": [
+        2,
+        1,
+        8,
+        9
+      ],
+      "intendedDoorTiles": [
+        6,
+        10
+      ],
+      "observedVisualExtentSourcePx": [
+        48,
+        24,
+        263,
+        256
+      ],
+      "observedDoorThresholdSourcePx": [
+        181,
+        257
+      ],
+      "observedDoorThresholdTiles": [
+        6.928,
+        9.832
+      ],
+      "observedDoorThresholdTargetPx": [
+        207.847,
+        294.963
+      ],
+      "proposedApproachSourcePx": [
+        181,
+        296
+      ],
+      "proposedApproachTiles": [
+        6.928,
+        11.324
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "estate",
+      "intendedFootprintTiles": [
+        13,
+        1,
+        10,
+        9
+      ],
+      "intendedDoorTiles": [
+        18,
+        10
+      ],
+      "observedVisualExtentSourcePx": [
+        350,
+        12,
+        312,
+        267
+      ],
+      "observedDoorThresholdSourcePx": [
+        529,
+        263
+      ],
+      "observedDoorThresholdTiles": [
+        20.249,
+        10.062
+      ],
+      "observedDoorThresholdTargetPx": [
+        607.464,
+        301.849
+      ],
+      "proposedApproachSourcePx": [
+        529,
+        296
+      ],
+      "proposedApproachTiles": [
+        20.249,
+        11.324
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "mansion",
+      "intendedFootprintTiles": [
+        26,
+        1,
+        10,
+        9
+      ],
+      "intendedDoorTiles": [
+        31,
+        10
+      ],
+      "observedVisualExtentSourcePx": [
+        688,
+        12,
+        292,
+        266
+      ],
+      "observedDoorThresholdSourcePx": [
+        834,
+        248
+      ],
+      "observedDoorThresholdTiles": [
+        31.923,
+        9.488
+      ],
+      "observedDoorThresholdTargetPx": [
+        957.703,
+        284.633
+      ],
+      "proposedApproachSourcePx": [
+        834,
+        296
+      ],
+      "proposedApproachTiles": [
+        31.923,
+        11.324
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "guild",
+      "intendedFootprintTiles": [
+        39,
+        1,
+        10,
+        9
+      ],
+      "intendedDoorTiles": [
+        44,
+        10
+      ],
+      "observedVisualExtentSourcePx": [
+        1021,
+        0,
+        308,
+        279
+      ],
+      "observedDoorThresholdSourcePx": [
+        1176,
+        259
+      ],
+      "observedDoorThresholdTiles": [
+        45.014,
+        9.909
+      ],
+      "observedDoorThresholdTargetPx": [
+        1350.431,
+        297.258
+      ],
+      "proposedApproachSourcePx": [
+        1176,
+        296
+      ],
+      "proposedApproachTiles": [
+        45.014,
+        11.324
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "lodge",
+      "intendedFootprintTiles": [
+        53,
+        1,
+        9,
+        9
+      ],
+      "intendedDoorTiles": [
+        57,
+        10
+      ],
+      "observedVisualExtentSourcePx": [
+        1356,
+        13,
+        273,
+        264
+      ],
+      "observedDoorThresholdSourcePx": [
+        1480,
+        257
+      ],
+      "observedDoorThresholdTiles": [
+        56.651,
+        9.832
+      ],
+      "observedDoorThresholdTargetPx": [
+        1699.522,
+        294.963
+      ],
+      "proposedApproachSourcePx": [
+        1480,
+        296
+      ],
+      "proposedApproachTiles": [
+        56.651,
+        11.324
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "market",
+      "intendedFootprintTiles": [
+        2,
+        15,
+        9,
+        7
+      ],
+      "intendedDoorTiles": [
+        6,
+        22
+      ],
+      "observedVisualExtentSourcePx": [
+        82,
+        333,
+        298,
+        218
+      ],
+      "observedDoorThresholdSourcePx": [
+        236,
+        528
+      ],
+      "observedDoorThresholdTiles": [
+        9.033,
+        20.2
+      ],
+      "observedDoorThresholdTargetPx": [
+        271.005,
+        605.994
+      ],
+      "proposedApproachSourcePx": [
+        236,
+        560
+      ],
+      "proposedApproachTiles": [
+        9.033,
+        21.424
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "inn",
+      "intendedFootprintTiles": [
+        14,
+        15,
+        9,
+        7
+      ],
+      "intendedDoorTiles": [
+        18,
+        22
+      ],
+      "observedVisualExtentSourcePx": [
+        411,
+        323,
+        252,
+        220
+      ],
+      "observedDoorThresholdSourcePx": [
+        531,
+        530
+      ],
+      "observedDoorThresholdTiles": [
+        20.325,
+        20.276
+      ],
+      "observedDoorThresholdTargetPx": [
+        609.761,
+        608.289
+      ],
+      "proposedApproachSourcePx": [
+        531,
+        560
+      ],
+      "proposedApproachTiles": [
+        20.325,
+        21.424
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "home",
+      "intendedFootprintTiles": [
+        8,
+        25,
+        10,
+        4
+      ],
+      "intendedDoorTiles": [
+        13,
+        29
+      ],
+      "observedVisualExtentSourcePx": [
+        291,
+        563,
+        245,
+        182
+      ],
+      "observedDoorThresholdSourcePx": [
+        402,
+        738
+      ],
+      "observedDoorThresholdTiles": [
+        15.388,
+        28.234
+      ],
+      "observedDoorThresholdTargetPx": [
+        461.627,
+        847.014
+      ],
+      "proposedApproachSourcePx": [
+        402,
+        767
+      ],
+      "proposedApproachTiles": [
+        15.388,
+        29.343
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "harbor",
+      "intendedFootprintTiles": [
+        49,
+        15,
+        12,
+        7
+      ],
+      "intendedDoorTiles": [
+        55,
+        22
+      ],
+      "observedVisualExtentSourcePx": [
+        1170,
+        284,
+        411,
+        263
+      ],
+      "observedDoorThresholdSourcePx": [
+        1280,
+        525
+      ],
+      "observedDoorThresholdTiles": [
+        48.995,
+        20.085
+      ],
+      "observedDoorThresholdTargetPx": [
+        1469.856,
+        602.55
+      ],
+      "proposedApproachSourcePx": [
+        1280,
+        559
+      ],
+      "proposedApproachTiles": [
+        48.995,
+        21.386
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    },
+    {
+      "id": "shipyard",
+      "intendedFootprintTiles": [
+        44,
+        25,
+        16,
+        4
+      ],
+      "intendedDoorTiles": [
+        50,
+        29
+      ],
+      "observedVisualExtentSourcePx": [
+        1057,
+        555,
+        493,
+        190
+      ],
+      "observedDoorThresholdSourcePx": [
+        1194,
+        730
+      ],
+      "observedDoorThresholdTiles": [
+        45.703,
+        27.928
+      ],
+      "observedDoorThresholdTargetPx": [
+        1371.1,
+        837.832
+      ],
+      "proposedApproachSourcePx": [
+        1194,
+        767
+      ],
+      "proposedApproachTiles": [
+        45.703,
+        29.343
+      ],
+      "collisionStatus": "untraced; validate against actual door, steps and props"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "dry-fountain",
+      "sourceVisualExtent": [
+        782,
+        403,
+        109,
+        115
+      ],
+      "intendedFootprintTiles": [
+        29,
+        16.5,
+        4,
+        3
+      ],
+      "block": "basin/pedestal only; trace actual shape"
+    },
+    {
+      "id": "main-east-west-road",
+      "proposedSourceRect": [
+        28,
+        293,
+        1609,
+        37
+      ],
+      "purpose": "connect upper doors; verify lamp/planter clearances"
+    },
+    {
+      "id": "central-through-route",
+      "proposedSourceRect": [
+        784,
+        532,
+        94,
+        230
+      ],
+      "purpose": "central southbound route to pier; not a final walk mask"
+    },
+    {
+      "id": "river",
+      "observedFirstWaterY": 806,
+      "observedBandSourceRect": [
+        0,
+        806,
+        1672,
+        135
+      ],
+      "intendedStartTileY": 32,
+      "observedStartTileY": 30.835,
+      "block": "all water except separately traced central pier"
+    },
+    {
+      "id": "central-pier",
+      "sourceVisualExtent": [
+        759,
+        764,
+        154,
+        165
+      ],
+      "proposedWalkCore": [
+        785,
+        818,
+        100,
+        72
+      ],
+      "proposedLanding": [
+        834,
+        854
+      ],
+      "block": "trace parapets, bollards and steps"
+    },
+    {
+      "id": "suggested-town-spawn",
+      "sourcePoint": [
+        834,
+        737
+      ],
+      "logicalPoint": [
+        31.923,
+        28.196
+      ],
+      "status": "visually open; collision untested"
+    }
+  ],
+  "foreground": {
+    "file": "seville_foreground_v1_rejected.png",
+    "approved": false,
+    "reason": "RGB with baked checkerboard; object registration not accepted",
+    "intendedObjects": "Market/lodge/shipyard fabric awnings, tree canopies/trunks. Trace footprint separately from overhead canopy. Draw actor relative to object ground anchor; no global always-on layer or whole-building overlay.",
+    "roofPolicy": "Keep roofs in base where ground is blocked; separately trace any overhang above a traversable route if introduced."
+  }
+}

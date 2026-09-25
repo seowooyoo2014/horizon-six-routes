@@ -1,0 +1,38 @@
+{
+  "captureMode": "offline internal 960x540 Game.renderInterior canvas; loading/fallback states, not browser or responsive UI captures",
+  "captures": [
+    "loading_reference_01_previous.png",
+    "loading_reference_01_ready.png",
+    "loading_reference_02_decode_error.png"
+  ],
+  "delayed": {
+    "key": "seville:lodge:2f",
+    "loadingScene": "previous",
+    "loadingCollision": "previous",
+    "loadingRenderedSource": "../Assets/Resources/Sprites/Game/V21/seville_bedroom_quality.png",
+    "readyScene": "candidate",
+    "readyCollision": "candidate",
+    "readyRenderedSource": "../Assets/Resources/Sprites/Game/StartPortArt/reference_01.png",
+    "actorSafe": true
+  },
+  "decodeError": {
+    "key": "seville:market:2f",
+    "status": "error",
+    "scene": "previous",
+    "collision": "previous",
+    "renderedSource": "../Assets/Resources/Sprites/Game/V21/Interiors/seville/market/2f/background.png"
+  },
+  "renderer": {
+    "calls": 1,
+    "ready": 1,
+    "fallbacks": 0,
+    "failures": [],
+    "last": {
+      "key": "seville:lodge:2f",
+      "status": "ready",
+      "source": "../Assets/Resources/Sprites/Game/StartPortArt/reference_01.png",
+      "requestedSource": "../Assets/Resources/Sprites/Game/StartPortArt/reference_01.png",
+      "error": null
+    }
+  }
+}
